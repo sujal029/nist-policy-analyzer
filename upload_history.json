@@ -1,0 +1,49 @@
+{
+  "Security-Policy-2-Account-Management.docx": {
+    "AC-2": {
+      "status": "Partially Implemented",
+      "gap_summary": "The policy does not specifically address the secure creation, disabling, and deletion of system accounts, focusing primarily on user accounts.",
+      "recommendation": "Incorporate specific procedures for the secure handling of system accounts, including their creation with least privilege, periodic review and disabling of inactive accounts, and secure deletion processes. Clearly distinguish between user and system account management practices."
+    },
+    "AC-2(1)": {
+      "status": "Partially Implemented",
+      "gap_summary": "The policy mandates account activity management but lacks the explicit requirement for automated tools as specified in NIST 800-171 rev 3 control AC-2(1).",
+      "recommendation": "Incorporate the use of automated tools for managing account activities, including creation, modification, and disabling, to align with the NIST 800-171 rev 3 control AC-2(1). Specify the tools used or the requirement for such tools in the policy."
+    },
+    "AC-2(3)": {
+      "status": "Partially Implemented",
+      "gap_summary": "The company policy states inactive accounts will be disabled after 45 days (30 days initial inactivity + 15 days pending disablement). This is longer than the NIST 800-171 rev 3 recommendation of 30 days.",
+      "recommendation": "Update the company policy to ensure inactive accounts are disabled within 30 days of inactivity."
+    },
+    "AC-2(5)": {
+      "status": "Fully Implemented",
+      "gap_summary": "No gaps identified.",
+      "recommendation": "No recommendations for improvement."
+    },
+    "AC-2(7)": {
+      "status": "Partially Implemented",
+      "gap_summary": "The policy does not mention multifactor authentication for privileged accounts like System Administrators.",
+      "recommendation": "Explicitly require multifactor authentication (MFA) for privileged accounts like System Administrators and Security Administrators in the 'Account Management' section. Also, consider specifying what constitutes MFA (e.g., something you know and something you have)."
+    },
+    "AC-5": {
+      "status": "Partially Implemented",
+      "gap_summary": "The policy establishes account management practices and separation of duties for system administrators but lacks specific details on separating duties for general users to prevent collusion or unauthorized actions beyond prohibiting shared accounts.",
+      "recommendation": "Enhance the policy to include specific examples of separated duties for users with access to sensitive information. For example, define separate roles for initiating, approving, and recording financial transactions or require dual authorization for certain actions."
+    },
+    "AC-6": {
+      "status": "Partially Implemented",
+      "gap_summary": "The policy mentions the principle of least privilege but lacks specific mechanisms for implementation, such as role-based access control, detailed privilege review processes, or automated tools for privilege right-sizing.",
+      "recommendation": "Incorporate detailed procedures for assigning and managing user privileges, including: 1) Implementing a role-based access control model. 2) Defining specific roles with clear privileges aligned with job functions. 3) Establishing a process for periodic review and adjustment of user privileges. 4) Consider implementing automated tools for privilege right-sizing and monitoring."
+    },
+    "IA-5": {
+      "status": "Partially Implemented",
+      "gap_summary": "The policy mentions password expiration aligned with a separate password policy, but doesn't explicitly cover complexity, reuse limits, or history tracking within the provided text.",
+      "recommendation": "Incorporate explicit requirements for password complexity, reuse limits, and history tracking. Ideally, specify these within this policy or provide clear cross-references to the separate password policy document."
+    },
+    "IA-2": {
+      "status": "Partially Implemented",
+      "gap_summary": "The policy mentions account management but doesn't explicitly detail the authentication process before granting access, like multi-factor authentication.",
+      "recommendation": "Incorporate explicit details about the authentication process. Specify what methods are used (e.g., passwords, multi-factor authentication) and how they are applied before granting access to systems and data."
+    }
+  }
+}
