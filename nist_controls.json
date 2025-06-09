@@ -1,0 +1,11 @@
+{
+  "AC-2": "Control use of system accounts, including creation, disabling, and deletion of inactive accounts.",
+  "AC-2(1)": "Use automated tools to manage account activity (creation, modification, disabling).",
+  "AC-2(3)": "Disable accounts after a specific period of inactivity (e.g., 30 days).",
+  "AC-2(5)": "Prevent or restrict the use of shared/group accounts.",
+  "AC-2(7)": "Require multifactor authentication (MFA) for privileged accounts.",
+  "AC-5": "Separate duties of users to reduce risk of collusion or unauthorized actions.",
+  "AC-6": "Limit user access based on the principle of least privilege.",
+  "IA-5": "Enforce password complexity, expiration, reuse limits, and history tracking.",
+  "IA-2": "Ensure all users are identified and authenticated before access is granted."
+}
