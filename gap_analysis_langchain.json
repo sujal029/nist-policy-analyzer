@@ -1,0 +1,652 @@
+{
+  "03.13.11": {
+    "control_id": "03.13.12.a",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.15.02": {
+    "control_id": "03.15.03",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.01": {
+    "control_id": "03.01.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.02": {
+    "control_id": "03.01.02",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.03": {
+    "control_id": "03.01.03",
+    "covered": "no",
+    "suggestion": "Add a section addressing information flow enforcement to prevent unauthorized disclosure of information.  This should include, but is not limited to:\n\n* Implementing access controls that restrict access to information based on the principle of least privilege and need-to-know.\n* Defining and enforcing information flow policies that specify permitted data transfers between different security levels or classifications.\n* Utilizing technical controls, such as firewalls, data loss prevention (DLP) tools, and network segmentation, to enforce information flow restrictions.\n* Monitoring and logging information flows to detect and respond to unauthorized access attempts or data breaches.\n* Regularly reviewing and updating information flow policies and controls to adapt to changing business needs and security threats.\n\nExample policy addition:\n\n*Information Flow Control*\n\n{COMPANY-NAME} restricts information flow between different security levels to protect sensitive data. Access controls are implemented based on the principle of least privilege and need-to-know.  Technical controls, including firewalls and DLP software, are used to enforce information flow policies.  Information flows are monitored and logged, and any unauthorized access attempts are investigated and addressed.  Information flow policies are reviewed and updated at least annually or as needed to address evolving threats."
+  },
+  "03.01.04": {
+    "control_id": "03.01.05",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.05": {
+    "control_id": "03.01.06",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.06": {
+    "control_id": "03.01.06",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.07": {
+    "control_id": "03.01.08",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.08": {
+    "control_id": "03.01.01.f.02",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.09": {
+    "control_id": "03.01.10",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.10": {
+    "control_id": "03.01.10",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.11": {
+    "control_id": "03.01.11",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.12": {
+    "control_id": "03.01.16",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.13": {
+    "control_id": "03.01.13",
+    "covered": "no",
+    "suggestion": "Add a section addressing account lifecycle management for non-person entities, such as service accounts, application accounts, and system accounts.  This section should include requirements for:\n\n* **Unique Identification:** All accounts, including non-person entities, must be uniquely identifiable.\n* **Purpose/Authorization:**  A documented business need and authorization must exist for each non-person entity account.\n* **Least Privilege:** Non-person entity accounts must be granted only the necessary privileges to perform their intended function.\n* **Credential Management:** Secure methods for storing and managing credentials associated with non-person entity accounts (e.g., API keys, secrets) must be implemented.  Avoid embedding credentials directly in code or configuration files.\n* **Regular Review and Deactivation:** Non-person entity accounts must be reviewed regularly (e.g., at least annually or more frequently based on risk) to ensure they are still needed. Deactivate accounts that are no longer required.\n* **Logging and Monitoring:**  Activity associated with non-person entity accounts must be logged and monitored for anomalies."
+  },
+  "03.01.14": {
+    "control_id": "03.01.14",
+    "covered": "no",
+    "suggestion": "Add a section addressing the disabling of accounts for non-employee accounts (e.g., contractors, consultants, temporaries, third parties) upon termination of contracts or agreements, or when their services are no longer required.  Specify timelines and responsibilities for disabling these accounts similar to the process defined for employee terminations. For example: \"Non-employee accounts (e.g., contractors, consultants, temporaries, third parties) must be disabled immediately upon termination of their contract or agreement, or when their services are no longer required by {COMPANY-NAME}. The responsible {COMPANY-NAME} manager is responsible for notifying the System Administrator of the termination and ensuring prompt account disablement.\""
+  },
+  "03.01.15": {
+    "control_id": "03.01.15",
+    "covered": "no",
+    "suggestion": "Add a section addressing the disabling of accounts upon termination or change of employment.  Example:  \"All accounts must be disabled immediately upon termination of employment, contract completion, or change of role that no longer requires access.  This includes disabling accounts for employees, contractors, consultants, and all other third-party users.  The process for disabling accounts must be documented and followed consistently.  A record of disabled accounts must be maintained.\""
+  },
+  "03.01.16": {
+    "control_id": "03.01.16",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.17": {
+    "control_id": "03.01.17",
+    "covered": "no",
+    "suggestion": "Add a section addressing the disabling of accounts for non-employee accounts (e.g., contractors, consultants, temporaries, third parties) upon termination of their contracts or agreements, or upon completion of their assigned tasks.  For example:  \"Non-employee accounts must be disabled immediately upon termination of contracts, agreements, or completion of assigned tasks.  A process must be in place to ensure timely notification of account disablement requirements.\""
+  },
+  "03.01.18": {
+    "control_id": "03.01.18",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.19": {
+    "control_id": "03.01.19",
+    "covered": "no",
+    "suggestion": "Add a section addressing account lifecycle management for contractors, consultants, temporaries, and other workers similar to the process for employees. This should include procedures for account creation, modification, disabling, and removal upon termination or contract completion.  Specifically mention how access is revoked when a contractor, consultant, temporary, or other worker's contract ends or their services are no longer required. For example: \"Contractor, consultant, temporary, and other worker accounts must be disabled immediately upon the completion of their contract or termination of their services.  A process must be in place to ensure timely notification of contract completion or termination to the appropriate system administrator.\""
+  },
+  "03.01.20": {
+    "control_id": "03.02.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.21": {
+    "control_id": "03.01.21",
+    "covered": "no",
+    "suggestion": "Add a section addressing the handling of withdrawn accounts.  For example:\n\nWithdrawn Accounts:\nWhen an account is no longer needed, it must be withdrawn.  Withdrawing an account may involve disabling the account, deleting the account, or transferring ownership of the account. The specific actions taken will depend on the type of account and the system it resides on.  All withdrawn accounts must be documented and the reason for withdrawal recorded.  System administrators are responsible for ensuring that withdrawn accounts are handled in accordance with this policy."
+  },
+  "03.01.22": {
+    "control_id": "03.01.22",
+    "covered": "no",
+    "suggestion": "Add a section addressing security awareness and training specific to account management. This should include topics such as: recognizing and reporting suspicious account activity (e.g., phishing attempts, shared accounts), understanding the importance of strong passwords and password management, adhering to the company's account management policies, and the consequences of policy violations.  The training should be recurring (e.g., annually) and documented.  Consider incorporating practical exercises or simulations to reinforce the training."
+  },
+  "03.02.01": {
+    "control_id": "03.02.02",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.02.02": {
+    "control_id": "03.03.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.02.03": {
+    "control_id": "03.02.03",
+    "covered": "no",
+    "suggestion": "Add a section addressing security awareness and training requirements for all personnel. This should include initial training upon hire or assignment of access, periodic refresher training, and training on relevant policy changes.  The training should cover topics such as password management, recognizing and avoiding phishing attacks, identifying and reporting security incidents, and the importance of adhering to company security policies. Consider incorporating practical exercises or simulations to reinforce the training material."
+  },
+  "03.03.01": {
+    "control_id": "03.03.04",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.03.02": {
+    "control_id": "03.03.02",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.03.03": {
+    "control_id": "03.03.03",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.03.04": {
+    "control_id": "03.03.05",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.03.05": {
+    "control_id": "03.03.06",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.03.06": {
+    "control_id": "03.03.06",
+    "covered": "no",
+    "suggestion": "Add a section addressing audit record reduction and report generation.  This should include details on how audit logs are reduced in volume (e.g., aggregation, filtering), how reports are generated from these reduced logs, the frequency of report generation, the types of reports generated (e.g., user activity, system events, security violations), and who receives these reports.  For example: \"Audit logs shall be regularly reviewed and reduced through automated processes such as aggregation and filtering.  Summary reports shall be generated [daily/weekly/monthly] detailing [specific report types, e.g., user login activity, system access attempts, security violations]. These reports shall be provided to [designated recipients, e.g., Security Administrator, relevant management].  Raw audit logs shall be retained for [duration] and archived securely according to the {COMPANY-NAME} Data Retention Policy.\""
+  },
+  "03.03.07": {
+    "control_id": "03.04.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.03.08": {
+    "control_id": "03.03.03",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.03.09": {
+    "control_id": "03.03.09",
+    "covered": "no",
+    "suggestion": "Add a section addressing the protection of audit information.  For example:\n\nProtection of Audit Information:\n\n* Audit information shall be protected from unauthorized access, modification, and deletion.\n* Access to audit logs shall be restricted to authorized personnel, such as Security Administrators and auditors.\n* Audit logs shall be stored on a separate system or in a secured location.\n* Audit logs shall be regularly reviewed for anomalies and security incidents.\n* {COMPANY-NAME} shall implement mechanisms to detect and respond to unauthorized attempts to access or modify audit information."
+  },
+  "03.04.01": {
+    "control_id": "03.04.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.04.02": {
+    "control_id": "03.04.06",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.04.03": {
+    "control_id": "03.04.03",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.04.04": {
+    "control_id": "03.04.04",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.04.05": {
+    "control_id": "03.04.02",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.04.06": {
+    "control_id": "03.04.08",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.04.07": {
+    "control_id": "03.04.07",
+    "covered": "no",
+    "suggestion": "Add a section addressing configuration management for systems and software. This should include: \n\n* **Baseline Configurations:** Establishing and documenting baseline configurations for systems and software.\n* **Configuration Change Control:** Implementing a formal change control process for modifications to system and software configurations.\n* **Configuration Monitoring:** Regularly monitoring systems and software to ensure they maintain compliance with established baselines.\n* **Vulnerability Management:** Integrating vulnerability scanning and remediation processes to address identified security weaknesses in system and software configurations."
+  },
+  "03.04.08": {
+    "control_id": "03.04.10",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.04.09": {
+    "control_id": "03.04.09",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.04.10": {
+    "control_id": "03.04.12",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.04.11": {
+    "control_id": "03.04.11",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.04.12": {
+    "control_id": "03.05.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.05.01": {
+    "control_id": "03.05.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.05.02": {
+    "control_id": "03.05.05.c",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.05.03": {
+    "control_id": "03.05.03",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.05.04": {
+    "control_id": "03.05.04",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.05.05": {
+    "control_id": "03.05.07",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.05.06": {
+    "control_id": "03.05.06",
+    "covered": "no",
+    "suggestion": "**Policy Suggestion:**\n\nAdd a section addressing account lifecycle management for non-person entities, such as service accounts and application accounts. This section should include:\n\n* **Creation:** Define the process for requesting, approving, and creating non-person accounts. Specify required documentation and approvals.\n* **Management:** Describe how non-person accounts are managed, including password management (e.g., strong password generation, rotation frequency), access control, and least privilege.  Explicitly prohibit shared credentials.\n* **Review:**  Establish a regular review process for non-person accounts to ensure they are still necessary, have appropriate access, and are being used legitimately. Define the frequency of reviews and the actions to be taken based on review findings (e.g., disabling or deleting unused accounts).\n* **Deactivation/Deletion:**  Outline the procedures for deactivating or deleting non-person accounts when they are no longer needed. Specify the required approvals and actions to be taken."
+  },
+  "03.05.07": {
+    "control_id": "03.05.12",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.05.08": {
+    "control_id": "03.05.08",
+    "covered": "no",
+    "suggestion": "This control, although withdrawn, addresses the concept of inactive account management. The provided policy includes elements of inactive account management, such as disabling accounts after a period of inactivity (45 days in this case). However, to fully address the spirit of the withdrawn control and enhance security, the policy should incorporate periodic reviews of all accounts, not just inactive ones. This review should verify the continued need for each account and ensure that privileges are still appropriate.  Add the following paragraph to the Account Management section:\n\n\"All user accounts, regardless of activity status, will undergo a comprehensive review every [time period, e.g., six months]. This review will verify the necessity of each account, confirm the appropriateness of assigned privileges, and update account details as needed.  Documentation of these reviews will be maintained.\""
+  },
+  "03.05.09": {
+    "control_id": "03.05.09",
+    "covered": "no",
+    "suggestion": "This control, although withdrawn, addresses the concept of lifecycle management for user identification and authentication.  While the provided policy addresses account creation, modification, disabling, and removal, it lacks specific details regarding the *identification* aspect.  Consider adding a section addressing how user identities are verified initially (e.g., background checks, verification of provided identification) and periodically re-validated, especially for privileged accounts.  This could include:\n\n* **Identity Verification:**  \"Prior to account creation, the identity of all users requiring access to {COMPANY-NAME} systems must be verified using [defined methods, e.g., government-issued ID, background checks].\"\n* **Periodic Re-validation:** \"User identities, particularly for privileged accounts such as System Administrators, shall be re-validated at least [frequency, e.g., annually, bi-annually] or upon suspicion of compromise.\"\n* **Identity Proofing Procedures:** \"{COMPANY-NAME} will maintain documented procedures for identity proofing and verification, including specific steps and acceptable forms of identification.\""
+  },
+  "03.05.10": {
+    "control_id": "03.05.10",
+    "covered": "no",
+    "suggestion": "Add a section addressing the handling of withdrawn accounts.  This should include procedures for identifying and disabling withdrawn accounts, as well as any necessary actions to protect data associated with those accounts.  For example:\n\nWithdrawn Accounts:\nWhen an account is no longer needed (e.g., due to employee departure, project completion, or system decommissioning), it must be withdrawn. Withdrawn accounts must be disabled promptly and removed from the system according to a defined schedule.  Before withdrawing an account, data associated with the account must be archived or transferred according to data retention policies.  A log of withdrawn accounts, including the date of withdrawal and the reason for withdrawal, must be maintained."
+  },
+  "03.05.11": {
+    "control_id": "03.05.11",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.05.12": {
+    "control_id": "03.06.02",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.15.03": {
+    "control_id": "03.15.03",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.13.08": {
+    "control_id": "03.13.08",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.06.01": {
+    "control_id": "03.06.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.06.02": {
+    "control_id": "03.06.03",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.06.03": {
+    "control_id": "03.06.04.a.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.06.04": {
+    "control_id": "03.06.04",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.06.05": {
+    "control_id": "03.06.05",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.07.01": {
+    "control_id": "03.07.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.07.02": {
+    "control_id": "03.07.02",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.07.04": {
+    "control_id": "03.07.04",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.07.03": {
+    "control_id": "03.07.03",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.07.05": {
+    "control_id": "03.07.06",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.07.06": {
+    "control_id": "03.07.06",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.10.01": {
+    "control_id": "03.10.01",
+    "covered": "no",
+    "suggestion": "Add a section addressing physical access authorizations. This should include details on how physical access is granted, such as the use of badges, key cards, or other identification methods.  It should also specify who is responsible for granting and revoking physical access, and how access is controlled for different areas or facilities.  Consider including requirements for visitor management, escort procedures, and logging of physical access activities.  For example, the policy could state: \"Physical access to {COMPANY-NAME} facilities is restricted to authorized personnel.  Access is granted based on job role and requires approved identification, such as a company-issued badge.  Requests for physical access must be submitted to the Security Administrator and approved by the relevant manager.  Visitors must be escorted by an authorized employee at all times.  All physical access activities, including entry and exit, are logged and monitored.\""
+  },
+  "03.08.01": {
+    "control_id": "03.08.01",
+    "covered": "no",
+    "suggestion": "Add a section addressing media storage security to the policy. This section should include guidelines for the secure storage, handling, and disposal of physical media such as hard drives, USB drives, tapes, and optical media.  For example:\n\nMedia Storage Security\n\n* All sensitive data stored on physical media must be encrypted.\n* Physical media containing sensitive data must be stored in a secure location with controlled access.\n* A clear process for the secure disposal of physical media must be defined and followed. This process should include methods such as physical destruction or secure erasure.\n* An inventory of all sensitive data stored on physical media should be maintained and regularly reviewed.\n*  Media must be clearly labeled to indicate the classification of the data stored on it.\n*  Transportation of media containing sensitive data must be conducted securely."
+  },
+  "03.08.02": {
+    "control_id": "03.08.02",
+    "covered": "no",
+    "suggestion": "Add a section addressing media handling procedures, including: \n\n* **Storage:** Define secure storage locations and procedures for different media types (e.g., hard drives, USB drives, tapes) when not in use. This should include physical security controls such as locked cabinets or safes, and environmental controls to prevent damage.\n* **Transportation:** Specify secure procedures for transporting media, including authorized personnel, methods of transport, and tracking mechanisms.\n* **Sanitization:** Detail procedures for sanitizing media before disposal or reuse, ensuring data is irretrievably destroyed. Specify approved methods based on media type (e.g., overwriting, degaussing, physical destruction).\n* **Disposal:** Outline procedures for disposing of media, ensuring compliance with environmental regulations and preventing data recovery. This may include working with approved vendors for secure disposal.\n* **Accountability:** Implement procedures for tracking media throughout its lifecycle, including assigning responsibility for handling, storage, and disposal. Maintain logs of media access and movement.\n* **Labeling:**  Establish a clear labeling system for media to identify its contents, classification, and handling instructions."
+  },
+  "03.08.03": {
+    "control_id": "03.08.03",
+    "covered": "no",
+    "suggestion": "Add a section addressing media sanitization procedures before disposal or reuse.  This should include methods for clearing, purging, or destroying data depending on the media type and its classification. For example:\n\nMedia Sanitization:\nPrior to disposal, reuse, or release outside of {COMPANY-NAME} control, all media containing sensitive company data must be sanitized. The sanitization method must be appropriate for the media type and data classification. Approved sanitization methods include:\n\n* **Clearing:** Overwriting data with non-sensitive data. This is suitable for media that will be reused internally for non-sensitive data.\n* **Purging:**  A more intensive form of clearing that makes data recovery extremely difficult. This is suitable for media that will be reused internally for sensitive data or released to third parties.\n* **Physical Destruction:**  Physically destroying the media (e.g., shredding, crushing, disintegration). This is the most secure method and is required for media containing highly sensitive data or when purging is not feasible.\n\nA record of all media sanitization activities must be maintained, including the date, media type, sanitization method, and responsible individual."
+  },
+  "03.08.04": {
+    "control_id": "03.08.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.08.05": {
+    "control_id": "03.08.03",
+    "covered": "no",
+    "suggestion": "Add a section addressing media sanitization procedures prior to disposal, reuse, or release outside of organizational control.  This should include specifying approved methods for sanitizing different media types (e.g., hard drives, tapes, optical media, mobile devices) and ensuring the methods meet NIST SP 800-88 guidelines.  For example:\n\nMedia Sanitization:\nPrior to disposal, reuse, or release outside of {COMPANY-NAME} control, all media containing sensitive information must be sanitized in accordance with NIST SP 800-88.  Approved sanitization methods include:\n\n* Overwriting:  For hard drives and other magnetic media, use approved software to overwrite data at least three times.\n* Physical Destruction:  For hard drives and other media, physical destruction methods such as shredding or disintegration are acceptable.\n* Degaussing:  For magnetic media, degaussing using an approved degausser is acceptable.\n* Clearing:  For mobile devices and other devices with built-in sanitization capabilities, clearing using the device's factory reset function is acceptable, provided it meets NIST SP 800-88 standards.\n\nA record of all media sanitization activities must be maintained, including the date, media type, sanitization method, and the individual responsible for performing the sanitization."
+  },
+  "03.08.06": {
+    "control_id": "03.08.06",
+    "covered": "no",
+    "suggestion": "Add a section addressing media sanitization procedures before disposal or reuse.  This should include methods for clearing, purging, or destroying media and specify responsibilities for ensuring proper sanitization. For example:\n\nMedia Sanitization:\nPrior to disposal, reuse, or release outside of {COMPANY-NAME} control, all organizational media containing sensitive information must be sanitized. The method of sanitization must be appropriate for the media type and the sensitivity of the information. Approved sanitization methods include:\n\n* Clearing: Overwriting media with non-sensitive data. This is suitable for less sensitive information.\n* Purging:  A more intensive form of clearing that makes data recovery more difficult. This is suitable for moderately sensitive information.\n* Physical Destruction: Physically destroying the media (e.g., shredding, crushing, disintegration). This is the most secure method and is required for highly sensitive information.\n\nThe System Administrator or designated personnel are responsible for ensuring appropriate media sanitization procedures are followed.  A record of all media sanitization activities must be maintained, including the date, media type, sanitization method, and the individual responsible for the sanitization."
+  },
+  "03.08.07": {
+    "control_id": "03.09.01",
+    "covered": "no",
+    "suggestion": "Add a section addressing media sanitization procedures.  This should include details on clearing, purging, and destroying media.  Specify different methods for different media types (e.g., hard drives, tapes, optical media, mobile devices) and ensure alignment with industry best practices like NIST SP 800-88.  For example:\n\nMedia Sanitization\nPrior to disposal or reuse, all {COMPANY-NAME} media containing sensitive information must be sanitized. The following procedures apply:\n\n* Clearing:  Overwriting media with non-sensitive data. This is suitable for internally reused media.\n* Purging:  Degaussing or applying cryptographic erase. This is suitable for media leaving {COMPANY-NAME} control but not being destroyed.\n* Destroying:  Physical destruction (e.g., shredding, crushing, disintegration) rendering the media unusable. This is suitable for highly sensitive data and end-of-life media.\n\nSpecific sanitization methods for different media types are documented and maintained by the Security Administrator.  All sanitization activities must be logged and reviewed regularly."
+  },
+  "03.08.08": {
+    "control_id": "03.08.08",
+    "covered": "no",
+    "suggestion": "Add a section addressing media sanitization procedures before disposal or reuse.  This should include methods for clearing, purging, or destroying media containing sensitive information. For example:\n\nMedia Sanitization:\nPrior to disposal, reuse, or release outside of {COMPANY-NAME} control, all organizational media containing sensitive information shall be sanitized. The sanitization method must be appropriate for the media type and the sensitivity of the information stored. Approved sanitization methods include:\n\n* Clearing: Overwriting media with non-sensitive data. This method is suitable for low-sensitivity information.\n* Purging:  A more intensive form of clearing that makes data recovery more difficult. This is suitable for moderate-sensitivity information.\n* Physical Destruction: Physically destroying the media (e.g., shredding, disintegration, incineration). This is the most secure method and is required for high-sensitivity information. \n\nThe chosen sanitization method must be documented and records maintained.  Responsibility for media sanitization should be clearly assigned."
+  },
+  "03.08.09": {
+    "control_id": "03.08.09",
+    "covered": "no",
+    "suggestion": "Add a section addressing media sanitization procedures.  This should include processes for clearing, purging, or destroying media containing sensitive information before disposal or reuse. Specify different procedures based on media type (e.g., hard drives, tapes, optical media, mobile devices) and the sensitivity of the information.  Examples include overwriting hard drives multiple times with random data, degaussing magnetic tapes, and physically destroying optical media.  The policy should also address the handling of media sent for repair or off-site storage."
+  },
+  "03.09.01": {
+    "control_id": "03.09.02",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.09.02": {
+    "control_id": "03.10.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.10.02": {
+    "control_id": "03.10.02",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.10.03": {
+    "control_id": "03.10.03",
+    "covered": "no",
+    "suggestion": "Add a section addressing physical access to systems and facilities, including visitor management, physical security controls (locks, surveillance), and environmental controls (temperature, humidity) to protect information systems from unauthorized physical access, damage, or theft.  For example:\n\nPhysical Security\n\nAll {COMPANY-NAME} facilities containing information systems must have physical security controls in place to prevent unauthorized access, damage, and theft. These controls include, but are not limited to:\n\n*   Visitor Management: All visitors must be registered and escorted by authorized personnel.\n*   Access Control Systems: Electronic access control systems (e.g., key cards, biometric scanners) should be used to restrict access to sensitive areas.\n*   Surveillance Systems: Video surveillance systems should be deployed to monitor critical areas.\n*   Environmental Controls: Appropriate environmental controls (e.g., temperature, humidity) must be maintained to ensure the proper functioning of information systems.\n*   Secure Disposal of Hardware: Procedures must be in place for the secure disposal of hardware containing sensitive information."
+  },
+  "03.10.04": {
+    "control_id": "03.10.04",
+    "covered": "no",
+    "suggestion": "Add a section addressing physical access restrictions to systems and facilities where information systems are housed. This should include measures such as physical locks, surveillance systems, visitor logs, and access control systems (e.g., key cards, biometric authentication).  For example: \"Physical Access Control: Access to areas containing information systems shall be restricted to authorized personnel only. Physical security controls, such as locks, surveillance systems, and access control systems (e.g., key cards, biometric authentication), shall be implemented and maintained to prevent unauthorized physical access.  A visitor log shall be maintained for all non-employees accessing these areas.\""
+  },
+  "03.10.05": {
+    "control_id": "03.10.05",
+    "covered": "no",
+    "suggestion": "Add a section addressing physical access restrictions to systems and facilities where information systems are housed. This should include measures like locked doors, surveillance systems, visitor logs, and environmental controls (e.g., temperature, humidity) to prevent unauthorized physical access, damage, or theft.  For example: \"Physical Access Control: Access to data centers, server rooms, and other areas containing information systems is restricted to authorized personnel only.  Physical security controls, such as keycard access, biometric authentication, and security cameras, are implemented to monitor and control access.  A visitor log must be maintained for all non-employees entering these restricted areas. Environmental controls, including temperature and humidity monitoring and regulation, are in place to protect equipment from damage.\""
+  },
+  "03.10.06": {
+    "control_id": "03.11.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.10.07": {
+    "control_id": "03.10.02",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.10.08": {
+    "control_id": "03.10.08",
+    "covered": "no",
+    "suggestion": "Add a section addressing transmission access control. This should include details on securing data during transmission, such as encryption requirements for data in transit, access restrictions to transmission media and equipment (e.g., network cables, wireless access points), and monitoring of communication channels for unauthorized access or activity.  For example: \"All sensitive data transmitted over external networks must be encrypted using industry-standard encryption protocols.  Physical access to network infrastructure components, such as wiring closets and data centers, is restricted to authorized personnel only. Network traffic is monitored for anomalous activity and unauthorized access attempts.\""
+  },
+  "03.11.01": {
+    "control_id": "03.11.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.11.02": {
+    "control_id": "03.11.02",
+    "covered": "no",
+    "suggestion": "This policy focuses on account management but lacks specifics on protecting Controlled Unclassified Information (CUI).  Add a section addressing CUI data access.  This section should specify:\n\n* How CUI data is identified and classified within {COMPANY-NAME}'s systems.\n* Access controls specific to CUI, including least privilege and need-to-know principles.  This should detail how access is granted, reviewed, and revoked for CUI.\n* Procedures for handling CUI data, including storage, transmission, and disposal, in accordance with relevant regulations (e.g., NIST SP 800-171).  Consider referencing or incorporating existing data handling policies.\n* Monitoring and auditing requirements for CUI access, including logging and review processes to detect unauthorized access or activity.\n* Responsibilities for managing and protecting CUI, clearly defining roles and responsibilities for data owners, custodians, and users.\n* Incident response procedures for CUI breaches or suspected compromises, including reporting requirements and mitigation steps."
+  },
+  "03.11.03": {
+    "control_id": "03.11.03",
+    "covered": "no",
+    "suggestion": "Add a section addressing risk assessments for account management practices. This should include regular risk assessments to identify potential threats and vulnerabilities related to account creation, modification, usage, and removal. The assessment should consider factors such as privileged access, inactive accounts, shared accounts, and password management.  Based on the risk assessment, implement appropriate controls and procedures to mitigate identified risks.  This should be a recurring process with defined frequency (e.g., annually or as needed based on changes to the environment)."
+  },
+  "03.11.04": {
+    "control_id": "03.11.04",
+    "covered": "no",
+    "suggestion": "Add a section addressing risk assessments for account management. This should include periodic risk assessments that consider factors such as the sensitivity of the data accessed by the accounts, the potential impact of unauthorized access, and the effectiveness of existing controls.  The risk assessment should inform decisions about account creation, modification, and removal, as well as the frequency of account reviews and audits. For example, accounts with access to highly sensitive data may require more frequent reviews and stronger authentication controls. The results of the risk assessment should be documented and reviewed by management."
+  },
+  "03.12.01": {
+    "control_id": "03.12.05.a",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.12.02": {
+    "control_id": "03.12.02",
+    "covered": "no",
+    "suggestion": "Add a section addressing the development, maintenance, and implementation of a Plan of Action and Milestones (POA&M) for addressing security weaknesses identified during audits, vulnerability scans, or other security assessments. This POA&M should include:\n\n* Identified security weaknesses\n* Assigned responsibilities for remediation\n* Resources required for remediation\n* Remediation timelines\n* Metrics for measuring progress\n* A process for tracking and reporting on the status of remediation efforts.\n\nExample:\n\nPOA&M Procedure\n\nAll identified security weaknesses discovered through audits, vulnerability scans, penetration testing, or other security assessments will be documented and tracked in a Plan of Action and Milestones (POA&M).  The POA&M will be maintained by the Information Security Officer and reviewed by management at least quarterly.\n\nEach entry in the POA&M will include:\n\n1. Description of the security weakness\n2. Assigned responsibility for remediation\n3. Required resources\n4. Target completion date\n5. Current status\n6. Remediation actions taken\n\nThe Information Security Officer is responsible for ensuring that the POA&M is kept up-to-date and that remediation efforts are progressing according to schedule.  Management will review the POA&M on a quarterly basis to ensure that appropriate action is being taken to address identified security weaknesses."
+  },
+  "03.12.03": {
+    "control_id": "03.12.03",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.12.04": {
+    "control_id": "03.12.04",
+    "covered": "no",
+    "suggestion": "Add a section addressing security assessments of information systems. This section should include the following:\n\n* Regular (e.g., annual, quarterly, or event-driven) security assessments of information systems are to be conducted by qualified personnel.\n* Assessments should include vulnerability scanning, penetration testing, and security audits.\n* The scope of the assessments should be defined and documented, including the systems to be assessed, the types of assessments to be performed, and the assessment criteria.\n* Results of the assessments should be documented and reported to management.\n* Remediation actions should be identified and implemented based on the assessment findings.\n* A process for tracking and monitoring remediation efforts should be established."
+  },
+  "03.12.05": {
+    "control_id": "03.13.09",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.13.01": {
+    "control_id": "03.13.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.13.02": {
+    "control_id": "03.13.02",
+    "covered": "no",
+    "suggestion": "Add a section addressing the handling of system and communications protection or information system accounts associated with organizational changes such as mergers, acquisitions, divestitures, or internal reorganizations.  This section should specify procedures for reviewing and adjusting access rights, disabling or transferring accounts, and ensuring continued security of systems and data during and after the transition. For example: \"During organizational changes such as mergers, acquisitions, divestitures, or internal reorganizations, a comprehensive review of all affected information system accounts will be conducted.  Access rights will be adjusted as necessary to reflect new roles and responsibilities.  Accounts associated with departing employees or dissolved departments will be disabled or transferred following established procedures.  A designated team will be responsible for overseeing the account management process during the transition to ensure the continued security of systems and data.\""
+  },
+  "03.13.03": {
+    "control_id": "03.13.03",
+    "covered": "no",
+    "suggestion": "Add a section addressing the handling of withdrawn systems.  For example:\n\nWithdrawn Systems:\nWhen a system is officially withdrawn from service, all associated user accounts must be disabled or removed within [ timeframe, e.g., 24 hours, 72 hours].  All data on the withdrawn system must be handled according to the {COMPANY-NAME} Data Retention and Disposal Policy.  The withdrawn system must be securely disposed of or sanitized to prevent unauthorized access to residual data."
+  },
+  "03.13.04": {
+    "control_id": "03.13.04",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.13.05": {
+    "control_id": "03.13.05",
+    "covered": "no",
+    "suggestion": "Add a section addressing the handling of inactive system accounts.  Specifically, define a policy for reviewing and disabling inactive system accounts within a defined timeframe (e.g., 90 days). This policy should include procedures for notifying system owners prior to disabling accounts and a process for reinstating accounts if needed. Example: 'System Accounts: Inactive system accounts must be reviewed at least every 90 days.  If a system account is found to be inactive for 90 days, the system owner will be notified. If the account remains inactive for an additional 30 days, the account will be disabled.  A documented process shall be established for reinstating disabled system accounts.'"
+  },
+  "03.13.06": {
+    "control_id": "03.13.06",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.13.07": {
+    "control_id": "03.13.07",
+    "covered": "no",
+    "suggestion": "Add a section addressing the handling of inactive system accounts.  Specifically, define a timeframe for disabling inactive system accounts (e.g., 90 days of inactivity).  This should include processes for notification to the account owner and their manager prior to disablement, as well as a process for re-enabling accounts if needed.  Consider incorporating automated tools for identifying and disabling inactive accounts.  This policy update should align with industry best practices and regulatory requirements for account management."
+  },
+  "03.13.09": {
+    "control_id": "03.13.10",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.13.10": {
+    "control_id": "03.13.11",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.13.12": {
+    "control_id": "03.14.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.13.13": {
+    "control_id": "03.13.13",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.13.14": {
+    "control_id": "03.13.14",
+    "covered": "no",
+    "suggestion": "Add a section addressing the handling of withdrawn systems.  For example:\n\n**Withdrawn Systems**\nWhen a system is officially withdrawn from service, all associated accounts must be disabled or removed within [ timeframe, e.g., 24 hours, 72 hours].  The system itself must be securely decommissioned according to the [Reference Decommissioning Policy/Procedure]. This includes ensuring data is properly sanitized or migrated and hardware is disposed of or repurposed securely."
+  },
+  "03.13.15": {
+    "control_id": "03.13.08",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.13.16": {
+    "control_id": "03.13.16",
+    "covered": "no",
+    "suggestion": "Add a section addressing the handling of withdrawn systems.  For example:\n\n**Withdrawn Systems**\nWhen a system is officially withdrawn from service, all associated accounts must be disabled or removed within [ timeframe, e.g., 24 hours, 72 hours].  The system itself must be securely decommissioned according to the [Reference Decommissioning Policy/Procedure]. This includes ensuring data is properly handled according to the [Reference Data Retention/Disposal Policy] and that the hardware is either securely sanitized or physically destroyed."
+  },
+  "03.14.01": {
+    "control_id": "03.14.01",
+    "covered": "no",
+    "suggestion": "Add a section addressing flaw remediation processes. This should include:\n\n* **Vulnerability Scanning:** Establish a regular vulnerability scanning schedule for systems and applications.  Define the tools and techniques to be used.\n* **Patch Management:**  Outline a process for patching identified vulnerabilities. This should include timelines for patching based on severity, testing procedures before deployment, and rollback plans in case of issues.\n* **Incident Response:** Integrate flaw remediation into the incident response process.  When a security incident occurs, identify the underlying vulnerabilities and remediate them to prevent recurrence.\n* **Security Advisories:**  Establish a process for monitoring security advisories and taking appropriate action, such as applying patches or implementing workarounds.\n* **Regression Testing:** After applying patches or making configuration changes, perform regression testing to ensure that existing functionality has not been negatively impacted.\n* **Documentation:** Maintain documentation of all identified vulnerabilities, remediation actions taken, and the results of testing.\n* **Responsibility:** Clearly define roles and responsibilities for vulnerability scanning, patch management, and other flaw remediation activities."
+  },
+  "03.14.02": {
+    "control_id": "03.15.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.14.03": {
+    "control_id": "03.14.03",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.14.04": {
+    "control_id": "03.14.04",
+    "covered": "no",
+    "suggestion": "Add a section addressing information system integrity. This section should include controls to ensure the integrity of system and application software, configurations, and data.  Specifically, it should address:\n\n* **Software Integrity:** Procedures for verifying the integrity of software (e.g., checksums, digital signatures) before installation and regularly thereafter.\n* **Configuration Management:**  A process for managing and controlling changes to system configurations, including hardware, software, and firmware. This should include change control procedures, configuration baselines, and regular configuration audits.\n* **Data Integrity:** Mechanisms to protect data from unauthorized modification or destruction, such as access controls, backups, and data integrity checks.  This could include referencing existing policies like the backup policy or data retention policy.\n* **Malicious Code Protection:**  Processes to prevent and detect malicious code, including malware scanning, intrusion detection/prevention systems, and regular security patching.\n\nExample policy text:\n\n**System and Information Integrity**\n\n{COMPANY-NAME} maintains the integrity of its information systems through the following controls:\n\n* All software installations are verified for integrity using checksums or digital signatures prior to deployment.\n* System configurations are managed through a formal change control process.  All changes must be authorized, documented, and tested before implementation.\n* Regular configuration audits are performed to ensure systems are maintained in accordance with established baselines.\n* Data integrity is protected through access controls, regular backups, and data integrity checks.\n* {COMPANY-NAME} employs malware scanning, intrusion detection/prevention systems, and regular security patching to protect against malicious code."
+  },
+  "03.14.05": {
+    "control_id": "03.14.05",
+    "covered": "no",
+    "suggestion": "Add a section addressing information system integrity to the policy. This section should include requirements for:\n\n* **Data Integrity:** Implementing mechanisms to verify and maintain the integrity of data, such as checksums, digital signatures, or message authentication codes.\n* **System Integrity:** Implementing measures to ensure the integrity of system files, configurations, and software, such as file integrity monitoring, secure boot processes, and change control procedures.\n* **Log Management:** Maintaining logs of system activity and security-relevant events, and regularly reviewing these logs for anomalies or indicators of compromise.\n* **Vulnerability Management:** Regularly scanning for and remediating vulnerabilities in systems and applications.\n* **Malicious Code Protection:** Implementing measures to protect against malicious code, such as anti-virus software, intrusion detection/prevention systems, and regular security awareness training.\n* **Incident Response:** Establishing procedures for responding to and recovering from security incidents that could affect system integrity."
+  },
+  "03.14.06": {
+    "control_id": "03.14.06",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.14.07": {
+    "control_id": "03.14.07",
+    "covered": "no",
+    "suggestion": "Add a section addressing information system integrity checks. This should include regular automated scans of system files to detect unauthorized modifications.  For example, consider adding the following paragraph to the policy:\n\nSystem Integrity Checks:\nAll information systems must undergo regular integrity checks to detect unauthorized modifications. These checks must be performed using automated tools at least [frequency, e.g., weekly]. The results of these checks must be reviewed by the Security Administrator and any discrepancies investigated and documented.  A log of all integrity checks and their results must be maintained for [duration, e.g., one year]."
+  },
+  "03.14.08": {
+    "control_id": "03.14.08",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.15.01": {
+    "control_id": "03.17.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.16.01": {
+    "control_id": "03.16.03.a",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.16.02": {
+    "control_id": "03.16.02",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.16.03": {
+    "control_id": "03.16.03",
+    "covered": "no",
+    "suggestion": "Add a section addressing the security requirements for externally provided system services. This should include:\n\n* **Security Assessment and Authorization:**  Before using an external system service, a security assessment must be conducted to ensure it meets {COMPANY-NAME}'s security requirements. This assessment should consider factors like data confidentiality, integrity, availability, and the service provider's security controls.\n* **Contractual Agreements:**  Contracts with external service providers must explicitly define security responsibilities, service level agreements (SLAs), data ownership and handling requirements, incident response procedures, and audit rights.\n* **Monitoring and Oversight:**  Processes must be in place to monitor the performance and security of external system services. This includes regular security reviews, vulnerability scanning, and penetration testing.\n* **Data Protection:**  Specific requirements for protecting {COMPANY-NAME} data stored or processed by external services should be defined, including encryption, access controls, and data retention policies.\n* **Incident Response:**  Clear procedures must be established for handling security incidents related to external system services, including communication protocols, escalation paths, and post-incident reviews.\n* **Termination of Services:**  A process for securely terminating services with external providers should be defined, including data retrieval, account closure, and ensuring no residual access remains."
+  },
+  "03.17.01": {
+    "control_id": "03.17.03",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.17.02": {
+    "control_id": "03.17.02",
+    "covered": "no",
+    "suggestion": "Add a section addressing the acquisition strategies for tools and methods used in account management. This should include considerations for secure software acquisition, lifecycle management, and integration with existing systems. For example:\n\nAcquisition of Account Management Tools and Methods:\n\nAll tools and methods used for account management (e.g., identity and access management (IAM) systems, provisioning tools, access control systems) must be acquired through a documented process that considers security requirements. This process should include:\n\n*   A risk assessment to evaluate the security implications of the tool or method.\n*   Verification that the selected tool or method aligns with {COMPANY-NAME}'s security policies and standards.\n*   Secure configuration and deployment of the tool or method.\n*   Integration with existing security systems (e.g., logging, monitoring).\n*   Ongoing maintenance and support from reputable vendors.\n\nLifecycle Management:\n\nAccount management tools and methods must be subject to a defined lifecycle management process that includes:\n\n*   Regular updates and patching to address security vulnerabilities.\n*   Periodic reviews to ensure continued effectiveness and alignment with business needs.\n*   A documented decommissioning process for retiring outdated or unnecessary tools and methods."
+  },
+  "03.17.03": {
+    "control_id": "03.17.02",
+    "covered": "yes",
+    "suggestion": ""
+  }
+}

@@ -1,11 +1,522 @@
 {
-  "AC-2": "Control use of system accounts, including creation, disabling, and deletion of inactive accounts.",
-  "AC-2(1)": "Use automated tools to manage account activity (creation, modification, disabling).",
-  "AC-2(3)": "Disable accounts after a specific period of inactivity (e.g., 30 days).",
-  "AC-2(5)": "Prevent or restrict the use of shared/group accounts.",
-  "AC-2(7)": "Require multifactor authentication (MFA) for privileged accounts.",
-  "AC-5": "Separate duties of users to reduce risk of collusion or unauthorized actions.",
-  "AC-6": "Limit user access based on the principle of least privilege.",
-  "IA-5": "Enforce password complexity, expiration, reuse limits, and history tracking.",
-  "IA-2": "Ensure all users are identified and authenticated before access is granted."
+  "03.13.11": {
+    "family": "System and Communications Protection",
+    "control": "03.13.12.a"
+  },
+  "03.15.02": {
+    "family": "Planning",
+    "control": "03.15.03"
+  },
+  "03.01.01": {
+    "family": "Access Control",
+    "control": "03.01.01"
+  },
+  "03.01.02": {
+    "family": "Access Control",
+    "control": "\u2014"
+  },
+  "03.01.03": {
+    "family": "Access Control",
+    "control": "Information Flow Enforcement"
+  },
+  "03.01.04": {
+    "family": "Access Control",
+    "control": "03.01.05"
+  },
+  "03.01.05": {
+    "family": "Access Control",
+    "control": "03.01.06"
+  },
+  "03.01.06": {
+    "family": "Access Control",
+    "control": "03.01.06"
+  },
+  "03.01.07": {
+    "family": "Access Control",
+    "control": "03.01.08"
+  },
+  "03.01.08": {
+    "family": "Access Control",
+    "control": "03.01.01.f.02"
+  },
+  "03.01.09": {
+    "family": "Access Control",
+    "control": "03.01.10"
+  },
+  "03.01.10": {
+    "family": "Access Control",
+    "control": "03.01.10.a"
+  },
+  "03.01.11": {
+    "family": "Access Control",
+    "control": "03.01.11"
+  },
+  "03.01.12": {
+    "family": "Access Control",
+    "control": "03.01.16"
+  },
+  "03.01.13": {
+    "family": "Access Control",
+    "control": "Withdrawn"
+  },
+  "03.01.14": {
+    "family": "Access Control",
+    "control": "Withdrawn"
+  },
+  "03.01.15": {
+    "family": "Access Control",
+    "control": "Withdrawn"
+  },
+  "03.01.16": {
+    "family": "Access Control",
+    "control": "03.01.16"
+  },
+  "03.01.17": {
+    "family": "Access Control",
+    "control": "Withdrawn"
+  },
+  "03.01.18": {
+    "family": "Access Control",
+    "control": "03.01.18"
+  },
+  "03.01.19": {
+    "family": "Access Control",
+    "control": "Withdrawn"
+  },
+  "03.01.20": {
+    "family": "Access Control",
+    "control": "03.02.01"
+  },
+  "03.01.21": {
+    "family": "Access Control",
+    "control": "Withdrawn"
+  },
+  "03.01.22": {
+    "family": "Access Control",
+    "control": "Table 4. Awareness and Training (AT)"
+  },
+  "03.02.01": {
+    "family": "Awareness and Training",
+    "control": "03.02.02"
+  },
+  "03.02.02": {
+    "family": "Awareness and Training",
+    "control": "03.03.01"
+  },
+  "03.02.03": {
+    "family": "Awareness and Training",
+    "control": "Withdrawn"
+  },
+  "03.03.01": {
+    "family": "Audit and Accountability",
+    "control": "03.03.04"
+  },
+  "03.03.02": {
+    "family": "Audit and Accountability",
+    "control": "03.03.02  \u2014"
+  },
+  "03.03.03": {
+    "family": "Audit and Accountability",
+    "control": "Table 6. Assessment, Authorization, and Monitoring (CA)"
+  },
+  "03.03.04": {
+    "family": "Audit and Accountability",
+    "control": "03.03.05"
+  },
+  "03.03.05": {
+    "family": "Audit and Accountability",
+    "control": "03.03.06  \u2014"
+  },
+  "03.03.06": {
+    "family": "Audit and Accountability",
+    "control": "Audit Record Reduction and Report Generation"
+  },
+  "03.03.07": {
+    "family": "Audit and Accountability",
+    "control": "03.04.01"
+  },
+  "03.03.08": {
+    "family": "Audit and Accountability",
+    "control": "03.03.03"
+  },
+  "03.03.09": {
+    "family": "Audit and Accountability",
+    "control": "Withdrawn"
+  },
+  "03.04.01": {
+    "family": "Configuration Management",
+    "control": "Baseline Configuration"
+  },
+  "03.04.02": {
+    "family": "Configuration Management",
+    "control": "03.04.06"
+  },
+  "03.04.03": {
+    "family": "Configuration Management",
+    "control": "Configuration Change Control"
+  },
+  "03.04.04": {
+    "family": "Configuration Management",
+    "control": "03.04.04"
+  },
+  "03.04.05": {
+    "family": "Configuration Management",
+    "control": "03.04.02"
+  },
+  "03.04.06": {
+    "family": "Configuration Management",
+    "control": "03.04.08"
+  },
+  "03.04.07": {
+    "family": "Configuration Management",
+    "control": "Withdrawn"
+  },
+  "03.04.08": {
+    "family": "Configuration Management",
+    "control": "03.04.10"
+  },
+  "03.04.09": {
+    "family": "Configuration Management",
+    "control": "Withdrawn"
+  },
+  "03.04.10": {
+    "family": "Configuration Management",
+    "control": "03.04.12"
+  },
+  "03.04.11": {
+    "family": "Configuration Management",
+    "control": "\u2014"
+  },
+  "03.04.12": {
+    "family": "Configuration Management",
+    "control": "03.05.01"
+  },
+  "03.05.01": {
+    "family": "Identification and Authentication",
+    "control": "\u2014  \u2014  \u2014  \u2014"
+  },
+  "03.05.02": {
+    "family": "Identification and Authentication",
+    "control": "03.05.05.c"
+  },
+  "03.05.03": {
+    "family": "Identification and Authentication",
+    "control": "03.05.03"
+  },
+  "03.05.04": {
+    "family": "Identification and Authentication",
+    "control": "\u2014"
+  },
+  "03.05.05": {
+    "family": "Identification and Authentication",
+    "control": "03.05.07"
+  },
+  "03.05.06": {
+    "family": "Identification and Authentication",
+    "control": "Withdrawn"
+  },
+  "03.05.07": {
+    "family": "Identification and Authentication",
+    "control": "03.05.12"
+  },
+  "03.05.08": {
+    "family": "Identification and Authentication",
+    "control": "Withdrawn"
+  },
+  "03.05.09": {
+    "family": "Identification and Authentication",
+    "control": "Withdrawn"
+  },
+  "03.05.10": {
+    "family": "Identification and Authentication",
+    "control": "Withdrawn"
+  },
+  "03.05.11": {
+    "family": "Identification and Authentication",
+    "control": "\u2014  \u2014  \u2014"
+  },
+  "03.05.12": {
+    "family": "Identification and Authentication",
+    "control": "03.06.02"
+  },
+  "03.15.03": {
+    "family": "Planning",
+    "control": "\u2014"
+  },
+  "03.13.08": {
+    "family": "System and Communications Protection",
+    "control": "\u2014"
+  },
+  "03.06.01": {
+    "family": "Incident Response",
+    "control": "\u2014"
+  },
+  "03.06.02": {
+    "family": "Incident Response",
+    "control": "03.06.03"
+  },
+  "03.06.03": {
+    "family": "Incident Response",
+    "control": "03.06.04.a.01"
+  },
+  "03.06.04": {
+    "family": "Incident Response",
+    "control": "03.06.04"
+  },
+  "03.06.05": {
+    "family": "Incident Response",
+    "control": "Table 11. Maintenance (MA)"
+  },
+  "03.07.01": {
+    "family": "Maintenance",
+    "control": "Withdrawn"
+  },
+  "03.07.02": {
+    "family": "Maintenance",
+    "control": "Withdrawn"
+  },
+  "03.07.04": {
+    "family": "Maintenance",
+    "control": "03.07.04"
+  },
+  "03.07.03": {
+    "family": "Maintenance",
+    "control": "Withdrawn"
+  },
+  "03.07.05": {
+    "family": "Maintenance",
+    "control": "03.07.06  \u2014"
+  },
+  "03.07.06": {
+    "family": "Maintenance",
+    "control": "Maintenance Personnel"
+  },
+  "03.10.01": {
+    "family": "Physical Protection",
+    "control": "Physical Access Authorizations"
+  },
+  "03.08.01": {
+    "family": "Media Protection",
+    "control": "Media Storage"
+  },
+  "03.08.02": {
+    "family": "Media Protection",
+    "control": "Media Access"
+  },
+  "03.08.03": {
+    "family": "Media Protection",
+    "control": "Media Sanitization"
+  },
+  "03.08.04": {
+    "family": "Media Protection",
+    "control": "03.08.01"
+  },
+  "03.08.05": {
+    "family": "Media Protection",
+    "control": "03.08.03"
+  },
+  "03.08.06": {
+    "family": "Media Protection",
+    "control": "Withdrawn"
+  },
+  "03.08.07": {
+    "family": "Media Protection",
+    "control": "03.09.01"
+  },
+  "03.08.08": {
+    "family": "Media Protection",
+    "control": "Withdrawn"
+  },
+  "03.08.09": {
+    "family": "Media Protection",
+    "control": "\u2014  \u2014"
+  },
+  "03.09.01": {
+    "family": "Personnel Security",
+    "control": "03.09.02"
+  },
+  "03.09.02": {
+    "family": "Personnel Security",
+    "control": "03.10.01"
+  },
+  "03.10.02": {
+    "family": "Physical Protection",
+    "control": "03.10.02"
+  },
+  "03.10.03": {
+    "family": "Physical Protection",
+    "control": "Withdrawn"
+  },
+  "03.10.04": {
+    "family": "Physical Protection",
+    "control": "Withdrawn"
+  },
+  "03.10.05": {
+    "family": "Physical Protection",
+    "control": "Withdrawn"
+  },
+  "03.10.06": {
+    "family": "Physical Protection",
+    "control": "03.11.01"
+  },
+  "03.10.07": {
+    "family": "Physical Protection",
+    "control": "03.10.02  \u2014"
+  },
+  "03.10.08": {
+    "family": "Physical Protection",
+    "control": "Access Control for Transmission"
+  },
+  "03.11.01": {
+    "family": "Risk Assessment",
+    "control": "\u2014  \u2014  \u2014  \u2014  \u2014"
+  },
+  "03.11.02": {
+    "family": "Risk Assessment",
+    "control": "Protecting Controlled Unclassified Information"
+  },
+  "03.11.03": {
+    "family": "Risk Assessment",
+    "control": "Withdrawn"
+  },
+  "03.11.04": {
+    "family": "Risk Assessment",
+    "control": "\u2014"
+  },
+  "03.12.01": {
+    "family": "Security Assessment",
+    "control": "03.12.05.a"
+  },
+  "03.12.02": {
+    "family": "Security Assessment",
+    "control": "Plan of Action and Milestones"
+  },
+  "03.12.03": {
+    "family": "Security Assessment",
+    "control": "\u2014  \u2014  \u2014"
+  },
+  "03.12.04": {
+    "family": "Security Assessment",
+    "control": "Withdrawn"
+  },
+  "03.12.05": {
+    "family": "Security Assessment",
+    "control": "03.13.09"
+  },
+  "03.13.01": {
+    "family": "System and Communications Protection",
+    "control": "\u2014"
+  },
+  "03.13.02": {
+    "family": "System and Communications Protection",
+    "control": "Withdrawn"
+  },
+  "03.13.03": {
+    "family": "System and Communications Protection",
+    "control": "Withdrawn"
+  },
+  "03.13.04": {
+    "family": "System and Communications Protection",
+    "control": "\u2014"
+  },
+  "03.13.05": {
+    "family": "System and Communications Protection",
+    "control": "Withdrawn"
+  },
+  "03.13.06": {
+    "family": "System and Communications Protection",
+    "control": "\u2014  \u2014"
+  },
+  "03.13.07": {
+    "family": "System and Communications Protection",
+    "control": "Withdrawn"
+  },
+  "03.13.09": {
+    "family": "System and Communications Protection",
+    "control": "03.13.10"
+  },
+  "03.13.10": {
+    "family": "System and Communications Protection",
+    "control": "03.13.11"
+  },
+  "03.13.12": {
+    "family": "System and Communications Protection",
+    "control": "03.14.01"
+  },
+  "03.13.13": {
+    "family": "System and Communications Protection",
+    "control": "\u2014  \u2014"
+  },
+  "03.13.14": {
+    "family": "System and Communications Protection",
+    "control": "Withdrawn"
+  },
+  "03.13.15": {
+    "family": "System and Communications Protection",
+    "control": "03.13.08"
+  },
+  "03.13.16": {
+    "family": "System and Communications Protection",
+    "control": "Withdrawn"
+  },
+  "03.14.01": {
+    "family": "System and Information Integrity",
+    "control": "Flaw Remediation"
+  },
+  "03.14.02": {
+    "family": "System and Information Integrity",
+    "control": "03.15.01"
+  },
+  "03.14.03": {
+    "family": "System and Information Integrity",
+    "control": "\u2014  \u2014"
+  },
+  "03.14.04": {
+    "family": "System and Information Integrity",
+    "control": "Withdrawn"
+  },
+  "03.14.05": {
+    "family": "System and Information Integrity",
+    "control": "Withdrawn"
+  },
+  "03.14.06": {
+    "family": "System and Information Integrity",
+    "control": "\u2014"
+  },
+  "03.14.07": {
+    "family": "System and Information Integrity",
+    "control": "Withdrawn"
+  },
+  "03.14.08": {
+    "family": "System and Information Integrity",
+    "control": "\u2014"
+  },
+  "03.15.01": {
+    "family": "Planning",
+    "control": "03.17.01  \u2014"
+  },
+  "03.16.01": {
+    "family": "System and Services Acquisition",
+    "control": "03.16.03.a"
+  },
+  "03.16.02": {
+    "family": "System and Services Acquisition",
+    "control": "Table 20. System and Communications Protection (SC)"
+  },
+  "03.16.03": {
+    "family": "System and Services Acquisition",
+    "control": "External System Services"
+  },
+  "03.17.01": {
+    "family": "Program Management",
+    "control": "03.17.03"
+  },
+  "03.17.02": {
+    "family": "Program Management",
+    "control": "Acquisition Strategies, Tools, and Methods"
+  },
+  "03.17.03": {
+    "family": "Program Management",
+    "control": "03.17.02"
+  }
 }
