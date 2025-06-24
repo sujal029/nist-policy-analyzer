@@ -1,7 +1,7 @@
 [theme]
-base="dark"
-primaryColor="#08e8de"
-backgroundColor="#000000"
-secondaryBackgroundColor="#121212"
-textColor="#FFFFFF"
+base="light"
+primaryColor="#4CAF50"              # Soothing, confident green (subtle success cue)
+backgroundColor="#F5F7FA"           # Clean, soft white-blue background
+secondaryBackgroundColor="#E2E8F0"  # Gentle gray for sections (feels organized)
+textColor="#1A202C"                 # Professional deep gray (great readability)
 font="sans serif"

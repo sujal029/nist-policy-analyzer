@@ -1,654 +1,654 @@
 {
   "Security-Policy-2-Account-Management.docx": {
     "03.13.11": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses account management aspects such as unique identification, prohibiting shared accounts, disabling terminated accounts, and periodic review. However, it lacks explicit details on restricting account types, especially privileged accounts, to only authorized users.",
+      "recommendation": "Explicitly state that only authorized users are granted access to each type of account (e.g., user, privileged user, system administrator). Define the criteria and process for authorizing specific account types and establish a process to validate that user's continued need for such access."
     },
     "03.15.02": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks specific details on separating duties of individuals and preventing conflicts of interest. While it mentions creating accounts with the least privilege, it doesn't explicitly address the principle of separation of duties to prevent a single user from controlling all aspects of a transaction (authorization, execution, review, and audit).",
+      "recommendation": "Enhance the policy with explicit separation of duties requirements.  Define distinct roles and responsibilities to ensure that no single individual can perform all critical actions related to a sensitive transaction.  For example, one person might authorize a purchase, another person fulfills the purchase, a third reviews the transaction, and a fourth performs an independent audit. Provide examples of how this separation should be applied in various scenarios within the organization."
     },
     "03.01.01": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The policy lacks specific details on how user access is revoked upon termination or transfer, especially regarding promptness and comprehensiveness. It also needs to address privileged account management, including least privilege, separation of duties, and periodic review.  While account disablement after inactivity is addressed, explicit mention of account deletion or transfer after termination or transfer is missing.",
+      "recommendation": "Add procedures to ensure the prompt and complete revocation of user access upon termination or transfer, including disabling all accounts and access cards/tokens.  Incorporate specific controls for privileged accounts, ensuring least privilege, separation of duties, and periodic reviews of assigned privileges. Define a clear process for deleting or transferring accounts after termination or transfer to prevent unauthorized access from dormant accounts. Specify timeframes for these actions."
     },
     "03.01.02": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy does not address cryptographic mechanisms for protecting the security functions of information systems.",
+      "recommendation": "Implement cryptographic controls to protect the confidentiality and integrity of account information, including password hashing, salting, and multi-factor authentication where appropriate.  Specifically address how the organization cryptographically protects security functions and what is being protected.  Refer to NIST 800-171 Rev. 3 guidance for further detail on acceptable cryptographic mechanisms."
     },
     "03.01.03": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The company policy addresses account management, including creation, modification, disabling, and removal of accounts. However, it lacks explicit details on information flow enforcement, such as controlling how data moves within the system and preventing unauthorized access or modification based on data sensitivity or classification.",
+      "recommendation": "Enhance the policy to include information flow control mechanisms. Define how data is classified, labeled, and handled based on sensitivity levels. Implement access controls that restrict data access based on roles, responsibilities, and data classification.  Consider incorporating measures like data loss prevention (DLP) tools and network segmentation to further restrict unauthorized information flows."
     },
     "03.01.04": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on separating duties of individuals and ensuring no single person can control all aspects of a transaction (authorization, execution, review, and audit). While the policy mentions the principle of least privilege and restricting access based on job duties, it doesn't explicitly address the separation of duties required by NIST 800-171 3.1.5.",
+      "recommendation": "Revise the Account Management section of the company policy to explicitly state that user accounts must be designed and managed to enforce separation of duties.  Provide clear examples of how duties are separated for specific roles and transactions to prevent conflicts of interest and fraud.  Consider incorporating a matrix or table that outlines the different roles and their permitted actions related to sensitive transactions."
     },
     "03.01.05": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on separating duties of individuals and enforcing least privilege, which are key components of NIST 800-171 rev 3 control 3.1.6 (previously 3.1.5 in rev 2, likely the intended control based on the provided number). While the policy mentions restricting rights and privileges, it doesn't explicitly address preventing a single user from controlling all aspects of a transaction (authorization, execution, review, and audit).",
+      "recommendation": "Explicitly incorporate the principle of separation of duties, particularly preventing any single user from having complete control over a transaction's lifecycle.  Define and implement procedures for enforcing least privilege, ensuring users have only the necessary access rights to perform their assigned tasks. Regularly review and update user permissions to maintain least privilege.  Clearly document these procedures and reviews."
     },
     "03.01.06": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks details on restricting account types, especially privileged accounts, and establishing a process for periodic review and reauthorization of accounts.",
+      "recommendation": "Add specific procedures for managing privileged accounts, including limiting their creation and use, and implement a periodic review and reauthorization process for all account types to ensure continued access is appropriate based on job roles and responsibilities.  The policy should also mention least privilege as a guiding principle in account access."
     },
     "03.01.07": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on restricting account access to only authorized information, devices, and applications, as required by NIST 800-171 3.1.8. While the policy mentions least privilege, it doesn't explicitly address limiting information, device, and application access based on assigned duties and responsibilities.",
+      "recommendation": "Revise the policy to explicitly state that user accounts will be granted access only to the specific information, devices, and applications necessary for their job duties.  Include a process for requesting and approving access to additional resources and incorporate periodic reviews of user access rights to ensure they align with current roles and responsibilities. Reference the principle of least privilege and explicitly link it to restrictions on information, devices, and applications."
     },
     "03.01.08": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The policy lacks details on restricting account access to only authorized information, devices, and applications based on job duties and business needs (least privilege). It also doesn't address reviewing and revoking access when job duties change.",
+      "recommendation": "Add specific procedures for implementing least privilege, including regular reviews of user permissions based on job roles.  Incorporate processes for adjusting access when job responsibilities change, transfers occur, or employees leave the company.  Define how authorization for access is granted and documented."
     },
     "03.01.09": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on employing automated mechanisms for inactive account identification and disablement. While the policy mentions manual disablement after a period of inactivity, it does not explicitly mention automated scanning and disablement.  It also does not address automated account termination upon termination of employment.",
+      "recommendation": "Implement automated mechanisms to scan for and disable inactive accounts.  The policy should explicitly state the timeframe for automated disablement of inactive accounts (e.g., after 30 days of inactivity).  The policy should also specify that accounts are automatically terminated when an employee is terminated from employment. Consider aligning inactivity thresholds with NIST recommendations or industry best practices."
     },
     "03.01.10": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The policy does not explicitly address privileged account management, especially regarding control of privileged access based on the principle of least privilege, nor does it mention periodic access reviews for compliance.",
+      "recommendation": "Add specific procedures for managing privileged accounts, including the principle of least privilege and performing regular access reviews to ensure only authorized users have access to necessary information and resources.  Explicitly state how privileged access is controlled and monitored.  Incorporate periodic review of privileged accounts to validate continued need and compliance."
     },
     "03.01.11": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The policy lacks details on restricting account types, especially privileged accounts. It also doesn't address specific requirements for disabling inactive accounts or automatic disabling after a certain period.",
+      "recommendation": "The policy should incorporate the following:\n\n1. **Account Types:** Define different account types (e.g., user, privileged user, system administrator) and specify the access rights associated with each.\n2. **Privileged Account Management:**  Implement stronger controls for privileged accounts, including stricter password requirements, more frequent reviews, and potentially multi-factor authentication.\n3. **Inactive Account Disabling:**  Define a clear process and timeline for automatically disabling inactive accounts. The current policy mentions manual disabling, which isn't sufficient for full compliance. Specify durations for inactivity and automated actions. \n4. **Automated Disabling:** Implement mechanisms for automatically disabling accounts after a pre-defined period of inactivity, rather than relying solely on manual processes. This strengthens security and ensures compliance with least privilege principles."
     },
     "03.01.12": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on restricting access to privileged accounts and implementing least privilege. While it mentions the principle of least privilege, it doesn't explicitly address how privileged access is controlled and managed, which is a key aspect of NIST 800-171 3.1.16 (previously 3.1.12 in rev 2). The policy also lacks details on how inactive privileged accounts are handled.",
+      "recommendation": "The policy should be updated to include specific procedures for managing privileged accounts. This includes defining who can authorize and grant privileged access, how privileged access is reviewed and revoked, and how inactive privileged accounts are disabled.  Consider implementing a multi-factor authentication requirement for privileged accounts and document a process for regularly reviewing and revoking privileged access based on least privilege principles. Additionally, define a specific timeframe for disabling inactive privileged accounts, which should ideally be shorter than the timeframe for regular user accounts."
     },
     "03.01.13": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control 'Withdrawn' indicates it is no longer active and therefore cannot be compared against the company policy.",
+      "recommendation": "N/A. This control is withdrawn and requires no action."
     },
     "03.01.14": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Not Applicable",
+      "gap_summary": "The specified NIST control has been withdrawn and is no longer applicable.",
+      "recommendation": "No action needed for this withdrawn control."
     },
     "03.01.15": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy and NIST control do not align.  NIST 800-171 rev 3 control 3.1.15 has been withdrawn and therefore there is no requirement to meet. The company policy describes account management procedures.",
+      "recommendation": "No action is needed for a withdrawn control. Review current NIST 800-171 rev 3 requirements for relevant account management controls and adjust company policy as needed to meet those in-force controls."
     },
     "03.01.16": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The policy does not explicitly address special considerations for privileged accounts as required by NIST 800-171 3.1.16. While the policy mentions least privilege and account reviews, it lacks specific procedures for managing privileged accounts, their access, and stricter controls around their usage.",
+      "recommendation": "Enhance the policy to include specific procedures for managing privileged accounts.  This should include stricter controls for creation, approval, usage monitoring, and revocation of privileged accounts. Define a clear process for granting and revoking privileged access, separate from standard user accounts.  Consider incorporating elements like multi-factor authentication, session recording, and regular access reviews specifically for privileged accounts."
     },
     "03.01.17": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control, 3.1.17, has been withdrawn and thus there is no comparison to be made. The company policy details account management procedures but cannot be assessed against a withdrawn control.",
+      "recommendation": "Determine the replacement or superseding control for NIST 800-171 rev 3 control 3.1.17 and then compare the company policy against the updated control."
     },
     "03.01.18": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks specific details on restricting account access to only authorized information types and functions and enforcing least privilege.  It also doesn't explicitly address separation of duties.",
+      "recommendation": "The policy should be revised to explicitly state that user accounts are granted access only to the specific information types and functions required for their job duties.  It should enforce the principle of least privilege, granting only the minimum necessary permissions. Include a section on separation of duties, especially for sensitive operations, to prevent any single user from controlling all aspects of a transaction.  Specifically mention reviews of user permissions and access rights.  Consider adding references to how these restrictions are implemented technically (e.g., role-based access control)."
     },
     "03.01.19": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control 03.01.19 is 'Withdrawn', meaning it is no longer an active control.  Therefore, a comparison cannot be made. The company policy pertains to account management, but its relevance cannot be assessed against a withdrawn control.",
+      "recommendation": "Review the latest version of NIST 800-171 and identify the current control that most closely aligns with the subject matter of the company policy (account management).  Then, perform a gap analysis against the *current* control."
     },
     "03.01.20": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks details on privileged account management specifically, as required by NIST 800-171 3.1.20. It does not define or address the management of privileged accounts, their usage, or access revocation.",
+      "recommendation": "The policy should be updated to include specific procedures for managing privileged accounts. This includes defining what constitutes a privileged account, establishing stricter controls for their creation and usage (e.g., multi-factor authentication, stricter password requirements, limited access based on the principle of least privilege), specifying more frequent review cycles for privileged access, and implementing robust logging and monitoring mechanisms for all privileged account activities. The policy should explicitly address how privileged access is revoked when an employee's role changes or employment terminates. Consider incorporating the concept of least privilege and separation of duties for privileged accounts."
     },
     "03.01.21": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control is withdrawn and thus has no requirements. The provided company policy addresses account management but is not relevant to a withdrawn control.",
+      "recommendation": "N/A for a withdrawn control. Review the latest NIST 800-171 revision for the current control set."
     },
     "03.01.22": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses account management but lacks explicit details regarding security awareness and training related to account usage, particularly concerning NIST 800-171 Table 4 requirements (AT-1 through AT-3).  It does not cover training frequency, content, or methods for evaluating training effectiveness.",
+      "recommendation": "Implement a comprehensive security awareness and training program that specifically addresses the requirements of NIST 800-171 Table 4. This program should include: \n\n* **AT-1 Security Awareness and Procedures Training:** Regular training for all users with access to CUI on recognizing and reporting security incidents, protecting CUI, and following company security policies.  Define training frequency (e.g., annually, upon hire) and delivery method (e.g., online modules, in-person sessions).\n* **AT-2 Security Awareness Training Content:** Document the specific topics covered in the training, including handling phishing attempts, identifying malicious software, reporting suspicious activity, data spillage procedures, and password management best practices. The content should be tailored to the sensitivity of the CUI handled.\n* **AT-3 Security Procedures Training:** Provide training on specific procedures related to CUI handling, such as proper storage and transmission methods, access control procedures, and incident response protocols.  Include practical exercises or simulations to reinforce learning.\n* **Training Effectiveness:**  Establish a method for evaluating the effectiveness of the training, such as post-training assessments, user surveys, or observation of user behavior.  Use the results to improve training content and delivery."
     },
     "03.02.01": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on restricting account types or roles to only those necessary for business functions (least privilege), and it doesn't address how access is reviewed when individuals change roles or responsibilities within the company.",
+      "recommendation": "Add explicit statements ensuring least privilege is enforced for all accounts.  Incorporate a process for reviewing and adjusting access rights when employees change roles or departments. Define how inactive accounts are identified and disabled, including the criteria for inactivity. Detail the frequency and process of the independent audit review of account management practices."
     },
     "03.02.02": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on separating duties of security administrators and system administrators, and how privileged accounts are managed and controlled as required by NIST 800-171 3.3.1.",
+      "recommendation": "The policy needs to explicitly address the separation of duties between security administrators and system administrators, particularly regarding privileged account management.  It should detail how privileged accounts are provisioned, what level of access they have, and how their activities are monitored and audited.  Consider incorporating least privilege principles and defining clear responsibilities for each role. For example, explicitly state that security administrators are responsible for managing security-related configurations and access controls, while system administrators focus on the day-to-day operational aspects of the systems.  The policy should also specify how privileged access is controlled, audited, and revoked when no longer required."
     },
     "03.02.03": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control is withdrawn and doesn't have requirements to compare against the company policy.",
+      "recommendation": "N/A. Review the current, applicable NIST control and compare it against the company policy for compliance."
     },
     "03.03.01": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks specifics on restricting account access to only authorized users, devices, and applications. It also doesn't explicitly mention controlling access based on assigned duties and responsibilities.",
+      "recommendation": "The policy should be revised to explicitly state that access is restricted to authorized users, devices, and applications. It should also include a mechanism for defining and enforcing least privilege, ensuring that users only have access to the resources necessary for their job functions. Consider incorporating role-based access controls (RBAC) and regular reviews of user permissions to maintain alignment with job duties."
     },
     "03.03.02": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specifics on restricting account access to only authorized information, devices, and applications. It also doesn't address controlling the allocation and use of privileges.",
+      "recommendation": "Revise the policy to explicitly state that user accounts should only be granted access to the specific information, devices, and applications necessary for their job function.  Define a process for assigning and managing user privileges, ensuring the principle of least privilege is followed and documented. Implement procedures for reviewing and revoking privileges when no longer needed, such as after an employee changes roles or leaves the company. Specify how access will be controlled based on user roles and responsibilities. Clarify what constitutes authorized {COMPANY-NAME} management for account auditing purposes."
     },
     "03.03.03": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses account management aspects like creation, modification, disabling, and review of accounts. However, it doesn't fully align with NIST 800-171 rev 3 control 3.3.3, specifically regarding assessment, authorization, and monitoring of account activity within the context of Controlled Unclassified Information (CUI).  It lacks details on security impact analyses, explicit authorization processes tied to roles and responsibilities, and continuous monitoring of account activity for anomalous behavior.",
+      "recommendation": "Enhance the policy to incorporate the following:\n\n* **Assessment and Authorization:**  Before granting access to CUI, conduct a risk assessment considering the sensitivity of the data and the user's role.  Document an explicit authorization process where a designated authority approves access based on the assessment results.  Clearly define roles and responsibilities for granting and revoking access.  Incorporate least privilege principles. Link access granted to specific CUI categories or data types.\n* **Monitoring:** Implement continuous monitoring of account activity (e.g., login attempts, access patterns, data modifications) to detect anomalies. Define thresholds and procedures for alerting and responding to suspicious events.  Regularly audit account access against authorizations. Log and review all account management activities (creation, modification, disablement)."
     },
     "03.03.04": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on separating duties of individuals to prevent conflicts of interest. While it mentions creating accounts with the least privilege, it doesn't explicitly address preventing a single user from controlling all aspects of a transaction (authorization, execution, review, and audit). It also lacks details on how privileged accounts are managed and how access is revoked when employees are terminated or on leave.",
+      "recommendation": "Enhance the policy to explicitly state that no single user can authorize, execute, review, and audit a single transaction.  Define procedures for managing privileged accounts, including how access is granted, reviewed, and revoked. Provide further details on access revocation procedures for terminated employees and those on leave, ensuring prompt action.  Specify how inactive accounts are identified and managed, including timelines and responsible parties.  Document the process for reviewing user accounts and permissions."
     },
     "03.03.05": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The policy lacks specifics on employing the principle of least privilege and separation of duties, especially concerning privileged accounts.",
+      "recommendation": "The policy should explicitly state that privileged accounts adhere to the principle of least privilege.  It needs to define a process for assigning and revoking privileged access and detail how separation of duties is enforced for these accounts. It should also describe the frequency of reviews and the criteria used for account disablement/deletion for privileged accounts."
     },
     "03.03.06": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The company policy addresses account management thoroughly, but lacks specifics on audit record reduction and report generation as required by NIST 800-171 3.3.6.  It does not mention the processes for reducing audit records, generating reports from these records, or the frequency of these activities.",
+      "recommendation": "Add procedures for audit record reduction and report generation.  This should include specifying how audit logs are reduced (e.g., aggregation, filtering), what types of reports are generated (e.g., user activity, access violations), how frequently reports are generated, and who receives them.  Define retention periods for both raw audit logs and generated reports.  Consider incorporating these procedures into the existing account management section or creating a new section specifically for auditing."
     },
     "03.03.07": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks explicit details on employing multifactor authentication for local and network access to privileged accounts and network access to non-privileged accounts.",
+      "recommendation": "Explicitly incorporate multifactor authentication requirements for privileged and non-privileged accounts accessing company networks and systems.  Reference or create a specific Multi-Factor Authentication policy that details the approved methods, implementation guidelines, and any exceptions.  Update the Account Management section to include the enforcement of multi-factor authentication and specify the responsible parties for its implementation and oversight."
     },
     "03.03.08": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on separating duties of system administrators to prevent a single user from authorizing, performing, reviewing, and auditing a single transaction.  It also does not address specialized privileged accounts or define their usage and controls.",
+      "recommendation": "The policy should explicitly prohibit a single system administrator from possessing all privileges required to authorize, perform, review, and audit a single transaction. This separation of duties should be enforced through role-based access controls and documented procedures. The policy must also address the management of specialized privileged accounts, including their creation, usage, and oversight to prevent misuse and maintain accountability. Define clear responsibilities for privileged account management and implement controls such as logging and monitoring of privileged activities."
     },
     "03.03.09": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy and NIST control do not align.  NIST 800-171 rev 3 control 3.3.9 has been withdrawn and there is no comparable replacement. Therefore, the policy does not address a current NIST control.",
+      "recommendation": "No action is needed relative to NIST 800-171 as the control is withdrawn. Review other relevant compliance frameworks or best practices for account management guidance."
     },
     "03.04.01": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The company policy addresses account management, but lacks details on baseline configurations for systems and applications. It focuses on user accounts but doesn't cover the broader scope of system hardening.",
+      "recommendation": "Expand the policy to include baseline configurations for operating systems, applications, and network devices.  This should include hardening measures like disabling unnecessary services, configuring strong firewall rules, and implementing secure configurations for software. Refer to NIST SP 800-53 and other relevant security guides for specific configuration recommendations.  Clearly define responsibility for establishing, documenting, reviewing, and updating these baseline configurations."
     },
     "03.04.02": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy does not explicitly address restricting access to privileged accounts, enforcing least privilege, using multi-factor authentication for those accounts, or establishing a process for periodic review and revocation of access.  It also lacks details on account monitoring and control for non-person entities (applications/services).",
+      "recommendation": "Revise the policy to include:\n\n* Explicit restrictions on the creation and use of privileged accounts.\n* Enforcement of the principle of least privilege for all accounts, including privileged accounts.\n* Implementation of multi-factor authentication for all privileged accounts. \n* Processes for periodic review (at least annually) and revocation of privileged access, especially when job roles change or employees leave.\n* Account monitoring (e.g., login failures, unauthorized access attempts) and how inappropriate activity is investigated.\n*  Specific controls for managing accounts for non-person entities, such as applications and services, as these often have elevated privileges and need similar safeguards."
     },
     "03.04.03": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The policy addresses account management but lacks details on configuration change control processes for systems and software. It focuses on user accounts but doesn't cover broader configuration changes.",
+      "recommendation": "Expand the policy to include configuration change management processes. Define how changes to system and software configurations are requested, approved, documented, implemented, and audited. This should cover areas like operating system settings, application configurations, network device parameters, and security controls."
     },
     "03.04.04": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on security and privacy attributes, periodic revalidation, and inactivating non-interactive accounts. It also doesn't explicitly mention restricting privileged accounts based on least privilege.",
+      "recommendation": "The policy should be updated to include:\n1. Explicitly state that accounts are reviewed for appropriate security and privacy attributes.\n2. Define a periodic revalidation process for accounts, not just for inactive accounts.\n3. Specify how non-interactive accounts (like system accounts) are managed and inactivated when no longer needed.\n4. Include language about restricting privileged accounts to only those individuals requiring elevated privileges and based on the principle of least privilege."
     },
     "03.04.05": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on separating duties of individuals and preventing a single user from having excessive access.  While it mentions creating accounts with the \"most restrictive set of rights\", it doesn't explicitly address the separation of duties to prevent a single user from authorizing, performing, reviewing, and auditing a single transaction as required by NIST 800-171 3.4.2.",
+      "recommendation": "Revise the account management section of the company policy to explicitly state the principle of separation of duties. Define specific roles and responsibilities to ensure that no single individual can control all aspects of a critical process.  Provide examples of how this separation is implemented in practice, particularly regarding authorization, execution, review, and audit functions. Consider incorporating a matrix of roles and permitted actions to clearly delineate responsibilities."
     },
     "03.04.06": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on restricting account access to only authorized information, devices, and applications based on job duties or least privilege, as required by NIST 800-171 3.1.4. It also doesn't explicitly address reviewing privileged account activity.",
+      "recommendation": "Revise the policy to explicitly state that access to information, devices, and applications is granted based on the principle of least privilege and aligned with defined job duties.  Include a process for regularly reviewing logs and activities of privileged accounts (like system administrators).  Document how authorization for account creation is linked to specific job roles and responsibilities."
     },
     "03.04.07": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control 'Withdrawn' indicates it is no longer active, thus there's no comparison to be made and no compliance status to assess against the provided company policy.",
+      "recommendation": "N/A as the NIST control is withdrawn.  Refer to the latest NIST 800-171 guidance for the current control set and assess your policy against those active controls."
     },
     "03.04.08": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks specific details on restricting account types and permissions to authorized users and processes, as required by NIST 800-171 3.4.10 (previously 3.1.4).  While the policy mentions least privilege, it doesn't explicitly state the requirement to *only* allow authorized account types and permissions.  It also lacks detail on automated mechanisms.",
+      "recommendation": "Explicitly state that only authorized account types and permissions are allowed. Define a process for authorizing account types and permissions, including documentation and review/approval requirements. Implement automated mechanisms to enforce these restrictions, such as automated account provisioning and deprovisioning based on roles and responsibilities. Integrate the concept of \"authorized users and processes\" directly into the policy language regarding account creation and modification.  Consider incorporating automated alerting for unauthorized account activity."
     },
     "03.04.09": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control is withdrawn and doesn't have specific requirements to compare against. The company policy addresses account management practices but is not directly comparable to a withdrawn control.",
+      "recommendation": "Since the NIST control is withdrawn, focus on aligning with the latest relevant NIST 800-171 Rev. 3 controls and other applicable security and privacy frameworks.  Review NIST publications for any replacement or updated guidance related to the subject matter originally covered by 3.4.9. Ensure account management policies align with current best practices."
     },
     "03.04.10": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The policy does not explicitly address restrictions on the allocation or use of privileged accounts.",
+      "recommendation": "Add a section specifically addressing privileged accounts.  Define what constitutes a privileged account, specify the approval process for granting privileged access, implement least privilege, and detail the controls for monitoring and auditing privileged account activity (e.g., session logging, access reviews). Explicitly prohibit the sharing of privileged accounts."
     },
     "03.04.11": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details regarding restricting privileged account access, especially for non-interactive accounts like system or application accounts. It also lacks clear guidance on account monitoring and auditing for privileged activities.",
+      "recommendation": "The policy should be revised to include specific procedures for managing privileged accounts.  This includes:\n\n* **Least Privilege for Non-Interactive Accounts:**  Define how to grant only necessary privileges to system and application accounts, avoiding excessive permissions.\n* **Unique Passwords for Privileged Accounts:**  Mandate strong, unique passwords for these accounts, separate from user passwords.\n* **Regular Monitoring and Auditing:** Implement processes to monitor and audit privileged account usage, looking for anomalies and unauthorized activities.\n* **Multi-Factor Authentication:** Consider implementing MFA for privileged accounts to add an extra layer of security.\n* **Control of Inactive Privileged Accounts:** Specify a process for disabling or removing inactive privileged accounts quickly.\n* **Clear Definition of Privileged Accounts:**  Explicitly identify what constitutes a privileged account within the organization."
     },
     "03.04.12": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on restricting information system access to authorized users only, and on employing the principle of least privilege. While the policy mentions account disablement upon termination and inactive account management, it does not explicitly address limiting information system access to authorized users and least privilege, which are key aspects of NIST 800-171 3.1.17 (previously 3.5.12 in rev 2).",
+      "recommendation": "Explicitly state that only authorized users are granted access to information systems.  Define and implement a process to ensure that user privileges are limited to the least necessary to perform their job duties (principle of least privilege). This could involve role-based access controls and regular reviews of user permissions. Documentation should specify how authorization is determined and the process for requesting and approving access to information systems."
     },
     "03.05.01": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy does not address cryptographic mechanisms for protecting the security credentials (e.g., passwords) stored within the system.  It mentions password complexity and expiration, but not cryptographic protection of stored credentials.",
+      "recommendation": "The policy needs to explicitly state that passwords are stored using cryptographic techniques such as salting and hashing.  Reference any specific algorithms or implementations used.  It should also be clarified who is responsible for managing cryptographic keys used for password protection."
     },
     "03.05.02": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks specific details regarding restricting account access to only authorized individuals and processes acting on behalf of authorized individuals, as required by NIST 800-171 3.5.5c.",
+      "recommendation": "The policy should explicitly state that access to information system accounts is restricted to authorized individuals and processes acting on their behalf.  It should detail the mechanisms used to enforce this restriction, such as strong authentication, access control lists, and regular access reviews.  Consider incorporating language like \"Access is granted only to authorized users and automated processes based on approved business needs and least privilege principles.  Unauthorized access attempts are logged and investigated.\""
     },
     "03.05.03": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on separating duties of individuals with privileged access to systems, which is a key aspect of NIST 800-171 03.05.03.  While the policy mentions creating accounts with the least privilege, it doesn't explicitly address preventing a single user from having complete control over a process (authorization, execution, review, and audit).  Additionally, the policy is missing details on periodic reviews of privileged accounts.",
+      "recommendation": "Add specific procedures to ensure separation of duties for privileged accounts, preventing a single user from controlling all aspects of a critical process. This should include clear definitions of roles and responsibilities. Implement periodic reviews of user accounts with administrative privileges to ensure least privilege is maintained. Document these procedures and review frequencies within the policy."
     },
     "03.05.04": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on separating duties of security administrators (account creation/modification) from system administrators (day-to-day system operations), which is crucial for preventing conflicts of interest and enforcing least privilege. It also doesn't explicitly address reviewing privileged accounts.",
+      "recommendation": "Explicitly define separation of duties between security administrators (responsible for account creation, modification, and privilege assignment) and system administrators (responsible for day-to-day system operations).  Include a requirement for regular review of privileged accounts (e.g., those with administrative access) to ensure least privilege and identify inactive or unnecessary accounts. This review should be independent of the account owners and system administrators."
     },
     "03.05.05": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on separating duties of individuals with privileged access to systems, which is a core requirement of NIST 800-171 3.1.5.",
+      "recommendation": "Explicitly define least privilege implementation procedures and specify how separation of duties will be enforced for privileged accounts, particularly regarding authorization, performing, reviewing, and auditing transactions related to sensitive information.  Consider incorporating controls to prevent a single user from holding all these responsibilities for a given transaction, aligning with NIST 800-171 requirements for preventing conflicts of interest and ensuring independent verification."
     },
     "03.05.06": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy and NIST control do not align.  NIST 800-171 rev. 3 control 3.5.6 has been withdrawn and is no longer relevant. The company policy addresses account management, not the withdrawn NIST control.",
+      "recommendation": "No action is needed regarding the withdrawn NIST control 3.5.6.  The company's existing account management policy should be reviewed against currently applicable NIST 800-171 rev. 3 controls or the latest NIST SP 800-172 controls if applicable."
     },
     "03.05.07": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The policy does not address automated disabling of inactive accounts after a predefined period. While it mentions manual disablement after 45 days of inactivity, NIST 800-171 3.1.5 emphasizes automated mechanisms for timely disablement.",
+      "recommendation": "Implement a mechanism to automatically disable inactive accounts after a defined period, such as 30 days or less, in alignment with NIST 800-171 3.1.5.  This automated process strengthens security by reducing the window of vulnerability associated with stale accounts. Consider integrating this automated disablement with the existing notification process to inform account owners and managers prior to disablement."
     },
     "03.05.08": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control, 3.5.8, has been withdrawn and therefore cannot be assessed against the company policy.  There is no comparison to be made.",
+      "recommendation": "Refer to the latest version of NIST 800-171 and identify the replacement or related control(s) for the withdrawn 3.5.8. Then, evaluate the company policy against the current, relevant control(s)."
     },
     "03.05.09": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control, 03.05.09, has been withdrawn and therefore cannot be assessed against the company policy. This means there is no current NIST requirement to compare against.",
+      "recommendation": "Review the latest NIST 800-171 revision and identify the replacement or related control(s) for the withdrawn 03.05.09. Then, compare the company policy against the updated, applicable control(s)."
     },
     "03.05.10": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control, 03.05.10, is withdrawn and therefore has no requirements.  While the company policy details account management procedures, it is not relevant to a withdrawn control.",
+      "recommendation": "N/A for a withdrawn control.  Consult NIST 800-171 Rev. 3 for active controls and update your compliance efforts accordingly.  Disregard withdrawn controls."
     },
     "03.05.11": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy does not address cryptographic mechanisms for protecting the confidentiality and integrity of CUI stored on digital media.  It focuses on account management, not data protection at rest.",
+      "recommendation": "Implement procedures and select cryptographic mechanisms to protect the confidentiality and integrity of CUI on digital media.  This may involve encryption of storage devices or individual files containing CUI."
     },
     "03.05.12": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on limiting unsuccessful logon attempts, the required actions after exceeding the limit, and time restrictions for account access.",
+      "recommendation": "The policy needs to incorporate stipulations for maximum unsuccessful login attempts, actions to be taken after the limit is reached (e.g., account lockout, notification), and time-based access restrictions (e.g., login hours)."
     },
     "03.15.03": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy and NIST control do not align.  NIST 800-171 Rev 3 Control 3.15.3 specifies separation of duties.  The company policy does address account management and least privilege, but it does not explicitly define separation of duties to prevent a single user from having complete control over a transaction (authorization, execution, review, and audit).",
+      "recommendation": "Implement clear separation of duties.  Define roles and responsibilities that ensure no single individual can control all aspects of a sensitive transaction.  Document these roles and responsibilities and incorporate them into the company policy."
     },
     "03.13.08": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks specifics on separating privileged accounts and their usage.",
+      "recommendation": "The policy should explicitly address the creation, use, and management of privileged accounts. It should enforce the principle of least privilege, ensuring privileged accounts are only used when necessary and for authorized activities.  Consider incorporating details on session monitoring/logging for privileged accounts and implementing multi-factor authentication for these accounts as well."
     },
     "03.06.01": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on separating duties of individuals with privileged access to systems and information. While it mentions creating accounts with the least privilege, it doesn't explicitly address the separation of duties required to prevent a single user from controlling all aspects of a sensitive transaction (authorization, execution, review, and audit). Also, the policy doesn't discuss account disablement or termination timelines for non-employees such as contractors or volunteers.",
+      "recommendation": "The policy needs to be revised to explicitly state the principle of separation of duties for privileged users, especially those with access to sensitive data or critical systems.  It should detail how duties will be separated for transactions involving authorization, processing, recording, and reviewing.  Further, the policy should explicitly define account disablement/termination timeframes for all user types, including non-employees, to ensure prompt revocation of access when it's no longer needed.  Finally, specific guidance or references should be included regarding what constitutes \"authorized {COMPANY-NAME} management\" for account audits and reviews."
     },
     "03.06.02": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks specifics on restricting account access to only authorized information, devices, and applications.  It also doesn't explicitly mention least privilege.",
+      "recommendation": "Revise the policy to explicitly state that account access should be limited to only the specific information, devices, and applications required for an individual's job duties. Incorporate the principle of least privilege, ensuring users have only the minimum necessary access rights.  Clearly define the process for granting and revoking access based on roles and responsibilities.  Add detail regarding continuous monitoring for compliance."
     },
     "03.06.03": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks the explicit requirement for periodic review and reauthorization of user accounts as mandated by NIST 800-171 03.06.04.a.01.",
+      "recommendation": "Add a section to the policy explicitly stating that user accounts, access privileges, and other attributes associated with each account are reviewed and reauthorized at a defined frequency (e.g., annually, bi-annually, or more frequently based on risk). This review should involve verifying the continued need for access, ensuring privileges are appropriate, and disabling or removing accounts that are no longer necessary.  Document the review process and maintain records of the reauthorizations."
     },
     "03.06.04": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks specifics on least privilege and separation of duties enforcement, especially concerning privileged accounts. It also doesn't explicitly mention periodic reviews of privileged accounts.",
+      "recommendation": "Enhance the policy to explicitly address the principle of least privilege, ensuring that user accounts, particularly privileged accounts, are granted only the necessary access rights to perform their assigned duties.  Include specifics on implementing separation of duties, particularly for sensitive operations. The policy should mandate periodic reviews of privileged accounts to ensure appropriate access levels and identify any unauthorized modifications."
     },
     "03.06.05": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management, but it lacks details regarding maintenance activities such as regular reviews of user privileges, and procedures for sanitization and disposal of information system media.  It also doesn't explicitly mention retention policies.",
+      "recommendation": "Enhance the policy to include: \n1. Periodic review and adjustment of user privileges based on least privilege.\n2. Procedures for sanitizing or destroying system media containing CUI when the media is disposed. \n3.  Define data retention policies according to business needs and any regulatory requirements. \n4.  Explicitly state how maintenance activities are logged or documented."
     },
     "03.07.01": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy and NIST control do not align.  NIST 800-171 rev. 3 control 3.7.1 has been withdrawn and replaced by NIST SP 800-172. The company policy describes account management practices, but this doesn't correspond to a currently active NIST 800-171 rev. 3 control.",
+      "recommendation": "Review the updated NIST SP 800-172 controls and adjust the company policy to align with the relevant, active requirements found within that updated guidance. Since 3.7.1 is withdrawn, remove any references to it and ensure compliance with any superseding controls."
     },
     "03.07.02": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy and NIST control do not align.  NIST 800-171 rev 3 control 3.7.2 has been withdrawn and replaced by other controls. The provided company policy addresses account management, which is now covered under different control families within NIST 800-171 rev 3.",
+      "recommendation": "Review the current NIST 800-171 rev 3 and map the company policy to the relevant controls related to account management, such as Access Control (AC), Identification and Authentication (IA), and Audit and Accountability (AU) families.  Specifically, look at controls related to least privilege, separation of duties, account reviews, and inactive account management."
     },
     "03.07.04": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks specific details on restricting account access based on 'least privilege' and the periodic review and revocation of account access. It mentions periodic review of inactive accounts but doesn't explicitly cover active accounts and privileged accounts.  It also doesn't explicitly mention separation of duties.",
+      "recommendation": "The policy should be revised to explicitly include:\n1. **Least Privilege:** Clearly state that user accounts should be granted only the necessary access rights to perform their assigned duties.  Avoid generic or excessive permissions.\n2. **Periodic Review and Revocation:** Implement a regular review process (e.g., quarterly or annually) for all accounts, including active and privileged accounts, to verify continued need and revoke unnecessary access. Define criteria for revocation.\n3. **Separation of Duties:** Incorporate the principle of separation of duties, especially for sensitive operations. No single individual should have control over all aspects of a critical process. Define roles and responsibilities to ensure adequate segregation of duties.\n4. **Monitoring User Access:** Implement mechanisms for logging and monitoring user activity to detect unauthorized access attempts or inappropriate use of accounts."
     },
     "03.07.03": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control 'Withdrawn' indicates it is no longer applicable.  Thus, the company policy cannot be compared against it. This also implies there's no compliance requirement associated with this specific control anymore.",
+      "recommendation": "No action is required for this withdrawn control. Verify compliance with any superseding or related controls that may have replaced 03.07.03 in NIST 800-171 rev 3."
     },
     "03.07.05": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks specifics on restricting privileged account use and monitoring user activity.",
+      "recommendation": "Enhance the policy to include details on least privilege enforcement for privileged accounts, preventing non-privileged users from accessing them.  Add requirements for regular monitoring and auditing of user activity, including privileged account usage.  Specifically mention privileged account access being limited to only authorized users and processes. The policy should also explicitly state that user activity is monitored, including privileged account use, with a defined process for reviewing audit logs.  Consider incorporating log retention policies aligned with any regulatory requirements."
     },
     "03.07.06": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy focuses on general account management but lacks specific provisions for maintenance personnel accounts and their access control.",
+      "recommendation": "Add specific procedures and controls for managing maintenance personnel accounts, including background checks, access limitations to only necessary systems and data, and regular review of their access privileges.  Clarify how maintenance personnel access is authorized, logged, and monitored.  Consider restrictions on remote access for maintenance personnel.  Define responsibilities for managing these accounts separate from regular user accounts."
     },
     "03.10.01": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy focuses on account management, but lacks details regarding physical access authorizations, such as visitor logs, escort requirements, or physical security controls for accessing sensitive areas.",
+      "recommendation": "Implement procedures for authorizing and managing physical access to areas containing CUI. This should include visitor management processes (e.g., logs, escorts), clear access restrictions based on roles and responsibilities, and physical security controls like locks, badges, or other access control systems to prevent unauthorized physical access."
     },
     "03.08.01": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy focuses on user account management but lacks any mention of media storage, its protection, or handling procedures.",
+      "recommendation": "Add a section specifically addressing media storage.  This should include details on how media is stored (physical and logical),  access controls, encryption requirements (at rest and in transit), sanitization/destruction procedures for media leaving the organization, and a process for tracking media."
     },
     "03.08.02": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy focuses on account management but lacks explicit details on media access control, which is the core of NIST 800-171 3.8.2.  It doesn't address how media is handled, sanitized, or controlled to prevent unauthorized access or data spillage.",
+      "recommendation": "Add a section addressing Media Access Control.  Define procedures for marking, handling, storing, and sanitizing media. Specify controls for accessing and transporting media, including encryption requirements. Describe the process for disposing of media, ensuring data destruction. Consider referencing NIST SP 800-88 for media sanitization guidance."
     },
     "03.08.03": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy focuses on account management but does not address media sanitization.",
+      "recommendation": "Add a section on media sanitization procedures.  This should include processes for clearing, purging, or destroying media containing CUI.  Specify which methods are approved (e.g., overwriting, degaussing, physical destruction) and under what circumstances each should be used.  The policy should also address how sanitized media is handled and documented."
     },
     "03.08.04": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks details on restricting account access to only authorized information, devices, and applications, and it doesn't specify how reviews and audits of account management are conducted to ensure compliance.",
+      "recommendation": "The policy should explicitly state that accounts are granted access only to authorized information, devices, and applications necessary for their assigned duties.  It should also detail the process for reviewing and auditing account management practices, including the frequency of reviews, who conducts them, and how any discrepancies are addressed.  Consider incorporating elements such as least privilege, separation of duties, and periodic access reviews.  Specifically mention how authorization is determined and enforced.  The policy should also specify how user activity is monitored for unusual behavior and what the process is for incident response related to account misuse. Finally, explicitly state the process of removing access for accounts that are no longer required."
     },
     "03.08.05": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on separating duties of individuals and preventing a single user from having excessive privileges that could allow them to authorize, execute, review, and audit a single transaction. While the policy mentions implementing least privilege, it doesn't explicitly address the separation of duties required by NIST 800-171 3.1.3.",
+      "recommendation": "The policy needs to explicitly state the separation of duties.  Specifically, it should prohibit a single user from possessing the capability to authorize, execute, review, and audit a single transaction. This could be achieved by implementing role-based access controls and clearly defining roles and responsibilities to ensure no single individual has excessive privileges. The policy should also incorporate a regular review process to verify and maintain the separation of duties."
     },
     "03.08.06": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control 'Withdrawn' indicates it is no longer applicable.  Therefore, comparison against the company policy is irrelevant, as the control itself does not represent a current requirement.",
+      "recommendation": "No recommendation is necessary as the NIST control is withdrawn.  If intending to compare against a different active control, please provide that control for review."
     },
     "03.08.07": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on security and privacy attributes for each account, how frequently these attributes are reviewed and updated, and how accounts are revoked upon termination of access. It also does not explicitly mention least privilege.",
+      "recommendation": "The policy should be revised to include:\n\n1. **Account Security and Privacy Attributes:** Explicitly state what security and privacy attributes (e.g., access privileges, data access limitations, clearance levels) are associated with each account, and how they are established and maintained.  Ensure alignment with the principle of least privilege, granting only the necessary access rights for users to perform their duties.\n2. **Review and Update Frequency:**  Define a specific timeframe for reviewing and updating account security and privacy attributes (e.g., annually, upon job change, or when access needs change). This ensures attributes remain relevant and appropriate for the user's role.\n3. **Account Revocation Process:**  Detail the process for revoking account access upon termination, including the timeframe for revocation (e.g., immediately upon termination).  This should cover all types of accounts, including employee, contractor, and third-party accounts.\n4. **Least Privilege Enforcement:**  Emphasize adherence to the principle of least privilege.  Clearly state that users are granted only the minimum necessary access rights to perform their assigned tasks.  This should include procedures for requesting and approving elevated privileges when required.\n5. **Monitoring of Account Activity:**  Include processes for monitoring account activity for anomalies and security violations. This could include regular log reviews, automated alerts for suspicious activities, and periodic access reviews."
     },
     "03.08.08": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control, 03.08.08, has been withdrawn.  Therefore, a comparison against the company policy cannot be made.",
+      "recommendation": "Review the current NIST 800-171 Rev. 3 publication to identify the relevant updated or replacement control and reassess the company policy against the most current requirements."
     },
     "03.08.09": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy and NIST 800-171 Rev. 3 control 3.8.9 do not align.  Control 3.8.9 pertains to protecting the authenticity of organizational systems.  The policy discusses account management, but does not address system integrity or authenticity verification.",
+      "recommendation": "Implement procedures to verify and protect the authenticity of organizational systems. This could include measures like secure boot, firmware integrity checks, and system hardening. Develop a policy that specifically addresses how system authenticity is maintained and verified."
     },
     "03.09.01": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks specific details regarding the security and privacy requirements for CUI.  It does not explicitly mention restricting account access to authorized users and processes acting on behalf of authorized users or the criteria for granting such access. It also lacks details on limiting unsuccessful logon attempts.",
+      "recommendation": "The policy should be revised to explicitly address the protection of CUI by requiring that access to CUI is restricted to authorized users and processes acting on their behalf.  Specific criteria for authorization should be defined. Additionally, incorporate procedures to monitor and limit unsuccessful logon attempts, and specify actions to be taken after a defined number of attempts. The policy should also detail least privilege enforcement beyond separation of duties (authorize, perform, review, audit). It should also explain how access is reviewed and revoked when users change roles, and how inactive accounts are handled."
     },
     "03.09.02": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on restricting account access to only authorized information, devices, and applications. It also doesn't address limiting unsuccessful logon attempts and the process for revoking access upon termination or transfer.",
+      "recommendation": "The policy should be revised to explicitly state that account access is limited to authorized information, devices, and applications only.  It should include details on how this authorization is determined and enforced (e.g., role-based access control, access control lists).  Additionally, the policy should specify a limit on unsuccessful login attempts before account lockout, a process for immediately revoking access upon termination or transfer, and a requirement to review account access periodically.  Finally, clarify responsibilities for implementing and enforcing these access restrictions."
     },
     "03.10.02": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses account management thoroughly but lacks specific details regarding media protection related to account access, as required by NIST 800-171 3.10.02. It does not mention protecting information on media used to store and transport information about accounts.",
+      "recommendation": "The policy should be updated to include procedures for protecting the confidentiality and integrity of account information stored or transported on media.  This should include measures like encryption of storage devices, secure handling procedures during transport, and clear guidelines for media sanitization and disposal."
     },
     "03.10.03": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy and NIST 800-171 rev. 3 control do not align because the NIST control (3.10.3) has been withdrawn. Therefore, there is no comparison to be made.",
+      "recommendation": "No recommendation is necessary as the NIST control is withdrawn. Review the latest revision of NIST 800-171 for current requirements and update policies accordingly."
     },
     "03.10.04": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control is withdrawn and therefore has no requirements. The company policy addresses account management, but not the physical protection aspects that might have been covered by a previous version of the withdrawn control.",
+      "recommendation": "Since NIST 800-171 rev. 3 control 3.10.04 is withdrawn, no action is required in relation to this specific control. However, ensure your company policy addresses other relevant physical security controls present in NIST 800-171 rev. 3."
     },
     "03.10.05": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy addresses account management but not physical protection controls, which were the focus of the withdrawn NIST 800-171 rev. 3 control 3.10.5.",
+      "recommendation": "This NIST control is withdrawn.  No action is required for this specific control. However, review the updated NIST 800-171 controls and ensure compliance with any superseding or related controls if applicable."
     },
     "03.10.06": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses account management thoroughly, but lacks specific details regarding physical access to systems where these accounts are used.  NIST 800-171 3.11.1 focuses on physically protecting the information system components from unauthorized access. The company policy does not address physical security measures such as locks, surveillance, or visitor logs.",
+      "recommendation": "Augment the policy with physical security controls for the systems where these accounts grant access. This could include measures like:\n\n*   Restricting physical access to server rooms and data centers.\n*   Implementing access control systems (e.g., keycard access).\n*   Using video surveillance to monitor physical access.\n*   Maintaining visitor logs.\n*   Ensuring proper disposal of physical media like hard drives."
     },
     "03.10.07": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The policy addresses account management thoroughly, but lacks specifics on physical access restrictions related to protecting information systems.  NIST 800-171 3.10.02 focuses on restricting physical access to information systems, but the provided company policy focuses on account management, not physical access.",
+      "recommendation": "Add policy elements addressing physical security controls such as limiting physical access to information systems and facilities, visitor logs, escort requirements, and physical security measures like locks and surveillance to align with the physical access restrictions outlined in NIST SP 800-171 3.10.02."
     },
     "03.10.08": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy focuses on user account management but lacks specific details about controlling access for transmissions.  It does not address how data in transit is protected (e.g., encryption, access restrictions for network devices).",
+      "recommendation": "Enhance the policy to include controls specifically for data transmission. This could include requirements for encryption of sensitive data in transit, access controls for network devices (routers, firewalls), and monitoring of network traffic.  Consider incorporating methods to authorize and authenticate connections, restrict access based on origin/destination, and log transmission activity."
     },
     "03.11.01": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy focuses on account management but does not address risk assessment related to accounts.  It lacks processes for identifying and responding to risk from compromised accounts or insider threats.",
+      "recommendation": "Implement procedures for periodic risk assessments related to user accounts. This should include analysis of potential threats like compromised credentials, privilege misuse, and dormant accounts.  Develop a process for responding to identified risks, which might involve strengthening authentication, implementing access reviews, or enhancing monitoring."
     },
     "03.11.02": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses account management aspects relevant to NIST 800-171 3.11.2, but lacks explicit connection to risk assessments driving access decisions. It focuses on operational aspects like account creation, modification, and disabling, but doesn't explain how these processes are informed by risk assessments related to CUI protection.",
+      "recommendation": "Explicitly link account management practices to risk assessments.  Document how risk assessments inform decisions about account creation, access levels, and periodic reviews. For example, specify how the principle of least privilege is applied based on the risk to CUI associated with different roles and data types.  Incorporate risk-based considerations into the account review process. Instead of simply disabling inactive accounts after a fixed period, evaluate the risk associated with each inactive account before taking action. This could involve considering the type of data accessible by the account and the potential impact of unauthorized access."
     },
     "03.11.03": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control is withdrawn and therefore cannot be assessed against the company policy.",
+      "recommendation": "Refer to the latest version of NIST 800-171 and map the company policy against the current controls."
     },
     "03.11.04": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy focuses on account management, not risk assessment.  There is no mention of risk assessments related to accounts or access.",
+      "recommendation": "Implement a process for periodic risk assessments related to user accounts and access. This should include identifying risks associated with account creation, modification, disabling, and removal, as well as risks related to excessive access privileges. The risk assessment should also consider threats such as unauthorized access, data breaches, and insider threats.  Document the process and findings of these risk assessments. Link the account management practices to the risk assessment results."
     },
     "03.12.01": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses account management aspects like unique identification, prohibiting shared accounts, password management, and account disablement upon termination. However, it lacks explicit details on periodic reviews of user access rights and comparing them against documented authorizations.  While it mentions access control procedures for new hires, terminations, etc., it doesn't explicitly state regular reviews and reconciliation of user privileges.",
+      "recommendation": "Implement a periodic review process (e.g., quarterly or annually) to verify that user access rights are consistent with their assigned roles and responsibilities. This process should involve comparing current user privileges against documented authorizations and making adjustments as needed. Document this process and retain records of the reviews.  Strengthen the policy wording around access reviews to be more explicit about review frequency and reconciliation against documented authorizations."
     },
     "03.12.02": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy details account management procedures, but does not establish a documented Plan of Action and Milestones (POA&M) to address security assessment findings and weaknesses.",
+      "recommendation": "Develop and implement a POA&M process that includes documenting identified security weaknesses, assigning responsibility for remediation, establishing milestones and completion dates, and tracking progress until closure. This POA&M should be reviewed and updated regularly, especially after security assessments or incidents."
     },
     "03.12.03": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided company policy focuses on account management but does not address security assessments of control systems, which is the core requirement of NIST 800-171 rev 3 3.12.3.  There is no mention of assessing the security controls implemented on the systems.",
+      "recommendation": "Implement a periodic security assessment process for system controls. This should include vulnerability scanning, penetration testing, and control effectiveness reviews. The assessments should be documented, and the results should be used to improve the security posture of the systems.  Develop procedures for conducting these assessments, define the frequency, and specify reporting and remediation processes."
     },
     "03.12.04": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control, 3.12.4, has been withdrawn and therefore cannot be assessed against the company policy.",
+      "recommendation": "Refer to the latest NIST 800-171 revision and identify the replacement or related control(s) for 3.12.4 to perform a proper comparison and gap analysis.  Update company policy accordingly."
     },
     "03.12.05": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses account management practices but lacks the security impact analysis required by NIST 800-171 3.13.9.  It discusses account creation, modification, disabling, and review, but it does not explicitly mention analyzing the potential security impacts of these actions.",
+      "recommendation": "Incorporate a requirement for security impact analyses before creating, modifying, or disabling accounts. This analysis should consider factors such as the level of access granted, potential for privilege escalation, and data sensitivity. Document the results of these analyses.  Update the policy to explicitly reference and require security impact analysis for account management activities. For example, add a section stating that any changes to account access or permissions require a prior security impact assessment to determine the potential risks to confidentiality, integrity, and availability of organizational systems and data.  This analysis should be documented and reviewed by appropriate personnel."
     },
     "03.13.01": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks explicit details regarding cryptography and how it is used to protect the confidentiality and integrity of account information. It also does not address system and communications protection related to CUI.",
+      "recommendation": "Enhance the policy to explicitly state how cryptographic techniques are employed for protecting account credentials (e.g., password hashing, salting) and during transmission.  Include details on system and communications protection mechanisms used to protect the confidentiality and integrity of CUI, aligning with NIST SP 800-171 requirements for protecting CUI.  Specifically address how the company protects the confidentiality and integrity of CUI when it is stored on digital media, and during transmission, such as stating specific forms of encryption that meet NIST SP 800-171 requirements."
     },
     "03.13.02": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control is withdrawn and no longer applicable. The provided company policy addresses account management, but it doesn't directly map to a current NIST 800-171 control.",
+      "recommendation": "Review current NIST 800-171 Rev. 3 controls and update the company policy accordingly.  Specifically, examine controls related to access control (3.1.x) and identification and authentication (3.5.x) to ensure appropriate mappings and compliance."
     },
     "03.13.03": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Not Applicable",
+      "gap_summary": "This control was withdrawn in NIST 800-171 rev. 3 and is no longer applicable.",
+      "recommendation": "N/A"
     },
     "03.13.04": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks specific details regarding cryptographic key management and session termination, which are crucial for satisfying NIST 800-171 rev 3 control 3.13.4.",
+      "recommendation": "The company policy needs to incorporate explicit procedures for cryptographic key management associated with user accounts. This includes key generation, storage, rotation, and revocation. Additionally, it must define session termination parameters, such as idle timeouts and explicit logoff requirements, to prevent unauthorized access."
     },
     "03.13.05": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control, 3.13.5, has been withdrawn and therefore cannot be assessed against the company policy.  It is impossible to determine compliance with a withdrawn control.",
+      "recommendation": "Consult the latest version of NIST 800-171 and identify the replacement or related controls for the withdrawn control 3.13.5.  Then, evaluate the company policy against the current, applicable controls."
     },
     "03.13.06": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management, but it lacks explicit details on employing cryptography to protect the confidentiality and integrity of CUI when it is accessed remotely. It also doesn't explicitly address two-factor authentication, especially for privileged accounts.  While the policy mentions disabling accounts, it doesn't specify secure methods for disabling inactive accounts and revoking access after termination/transfer.",
+      "recommendation": "Enhance the policy to explicitly require the use of cryptographic mechanisms for protecting CUI during remote access sessions.  Implement multi-factor authentication, particularly for privileged accounts like system administrators. Strengthen the account disablement process by detailing secure methods for disabling inactive accounts and revoking credentials (e.g., disabling accounts, not just permissions) upon termination or transfer.  Clarify the process for reviewing and auditing account activity, and ensure alignment with NIST SP 800-171 Rev. 3 control 3.1.18."
     },
     "03.13.07": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Not Applicable",
+      "gap_summary": "The NIST control cited is withdrawn and therefore not applicable.",
+      "recommendation": "N/A"
     },
     "03.13.09": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management, but it lacks specific details on employing cryptography to protect the confidentiality and integrity of CUI stored on digital media during transport unless otherwise protected by alternative physical safeguards.",
+      "recommendation": "Explicitly incorporate procedures for encrypting CUI stored on digital media during transport. Define acceptable encryption methods and key management practices in line with NIST guidelines.  Clarify how alternative physical safeguards, if any, provide equivalent protection and under what conditions they are acceptable. Reference or append relevant encryption standards and procedures."
     },
     "03.13.10": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The policy addresses account management, including creation, modification, disabling, and removal, but lacks specifics on employing multifactor authentication for local and network access to privileged accounts.",
+      "recommendation": "Explicitly incorporate multifactor authentication for all privileged accounts, specifying the types of authentication factors allowed and the enforcement mechanisms. Reference or append this requirement to the existing password policy and account management procedures. Clearly define 'privileged account' within the policy's definitions section. Consider periodic review of account access rights and adherence to the principle of least privilege."
     },
     "03.13.12": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks specific details on separating duties of system administrators to prevent conflicts of interest and ensure independent review of actions. While it mentions creating accounts with the least privilege, it doesn't explicitly address preventing a single user from authorizing, performing, reviewing, and auditing a single transaction.  It also doesn't mention automated mechanisms for identifying and disabling inactive accounts.",
+      "recommendation": "The policy should be revised to explicitly prohibit a single user from controlling all aspects of a transaction (authorization, execution, review, and audit).  It should detail how duties are separated and assigned to different administrators. Consider incorporating automated mechanisms for inactive account identification and disablement, rather than relying solely on monthly manual reviews.  Explicitly state the requirement and process for independent reviews of user accounts and access privileges."
     },
     "03.13.13": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses account management aspects but lacks explicit details on cryptographic key management and separation of duties related to system and communications protection as indicated in NIST 800-171 rev 3.",
+      "recommendation": "Enhance the policy to include procedures for cryptographic key management, such as generation, storage, rotation, and disposal.  Incorporate stronger separation of duties principles, particularly for privileged accounts, to prevent conflicts of interest and ensure independent authorization, execution, review, and audit of critical transactions impacting system and communications protection. Specifically, address how duties are segregated to prevent a single user from controlling all aspects of a security-relevant action.  Consider adding details on protective measures for critical system components, such as network devices, security appliances, and servers."
     },
     "03.13.14": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Not Applicable",
+      "gap_summary": "The NIST control cited has been withdrawn and therefore cannot be assessed against the company policy.",
+      "recommendation": "Review the latest version of NIST 800-171 and identify the replacement or related control(s) for accurate assessment and implementation."
     },
     "03.13.15": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management, but it lacks specific details regarding separating duties of individuals to prevent conflicts of interest.  While it mentions the *concept* of least privilege and separation of duties, it doesn't explicitly require the separation of security functions from system administration functions as required by NIST 800-171 3.13.8.",
+      "recommendation": "Revise the policy to explicitly prohibit individuals from having both security administrator and system administrator roles for the same system.  Clearly define roles and responsibilities to ensure that no single user can control all aspects of security, including authorization, execution, review, and auditing of security-relevant actions.  Specifically address the segregation of duties for security functions. For example, the person managing audit logs should not also be the person with unrestricted access to the system being audited."
     },
     "03.13.16": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control is withdrawn and therefore not applicable. The company policy addresses account management but not in the context of a withdrawn NIST control.",
+      "recommendation": "N/A for a withdrawn control. However, the company policy demonstrates good practices for account management. It is recommended to review and align the policy with the latest NIST 800-171 revision and relevant controls."
     },
     "03.14.01": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses account management thoroughly but lacks explicit details on flaw remediation.  While account disablement upon termination and inactive account management are mentioned, which indirectly contribute to flaw remediation, there is no specific process for addressing identified security flaws or vulnerabilities related to accounts.",
+      "recommendation": "Add a section dedicated to flaw remediation.  This section should detail how identified security flaws or vulnerabilities related to accounts are handled, including:  1. Vulnerability scanning and detection procedures, 2. Processes for patching and updating systems to address vulnerabilities, 3. Incident response procedures for security incidents related to compromised accounts, 4. A process for tracking and documenting identified flaws and their remediation."
     },
     "03.14.02": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on separating privileged accounts and using multi-factor authentication for those accounts, as required by NIST 800-171 3.1.15.",
+      "recommendation": "The company policy needs to explicitly address the separation of privileged accounts (e.g., system administrators) from regular user accounts and mandate multi-factor authentication for all privileged accounts.  Include details on how privileged access is granted, reviewed, and revoked.  Define procedures for protecting credentials associated with privileged accounts, such as storing them securely and not sharing them. Clarify the process of account review to include verification of assigned privileges."
     },
     "03.14.03": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses account management aspects relevant to NIST 800-171 rev 3 control 3.14.3, such as unique identification, restrictions on shared accounts, disabling terminated accounts, and periodic account reviews. However, it lacks explicit detail regarding continuous monitoring of account activity and alerting on anomalous behavior, a core component of system and information integrity monitoring.",
+      "recommendation": "Enhance the policy to include provisions for continuous monitoring of account activity, including login attempts (successful and failed), resource access, and privilege escalation.  Define thresholds for anomalous activity that should trigger alerts and specify procedures for investigating and responding to these alerts. This could involve implementing security information and event management (SIEM) tools and establishing a process for regular log review and analysis."
     },
     "03.14.04": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Not Applicable",
+      "gap_summary": "The specified NIST 800-171 rev 3 control (3.14.4) has been withdrawn and is no longer applicable.",
+      "recommendation": "No action is required for this withdrawn control.  Ensure your compliance efforts focus on the current, active controls in NIST 800-171 rev 3."
     },
     "03.14.05": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control, 3.14.5, has been withdrawn and thus has no requirements. The company policy addresses account management but it is not relevant to a withdrawn control.",
+      "recommendation": "No recommendation is needed as the control is withdrawn. Consider reviewing the latest version of NIST 800-171 and implementing relevant controls."
     },
     "03.14.06": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management, but it lacks specific details on system integrity monitoring and actions to take when unauthorized activities are detected.  It doesn't directly address the implicit requirement in 03.14.06 to ensure the integrity of the systems themselves, focusing instead on account integrity.",
+      "recommendation": "Enhance the policy to include procedures for monitoring system integrity, including file integrity checks, log reviews, and security event monitoring. Define actions to be taken when unauthorized activities or modifications are detected, such as incident response procedures and system recovery processes.  Explicitly state responsibilities for these actions. Consider adding details on vulnerability scanning and remediation to ensure system integrity against known exploits."
     },
     "03.14.07": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Missing",
+      "gap_summary": "The provided NIST control is withdrawn and thus has no requirements.  While the company policy details account management procedures, it does not address the now withdrawn NIST 800-171 rev. 3 control 3.14.7.",
+      "recommendation": "No action is required for the withdrawn NIST control. However, regular review and updates to account management policies based on current best practices and relevant, non-withdrawn standards are recommended."
     },
     "03.14.08": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The policy lacks specific details on system integrity checks and protections against malicious code. It also doesn't explicitly address security flaw remediation or unauthorized changes.",
+      "recommendation": "Add sections addressing: 1. Regular system integrity checks to detect unauthorized changes. 2. Processes for protecting against malicious code, including malware scanning and intrusion detection. 3. Procedures for identifying and remediating security flaws. 4. Mechanisms to prevent unauthorized changes to system configurations and software."
     },
     "03.15.01": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy does not explicitly address secure credential storage and cryptography as required by NIST 800-171 rev 3 03.17.01. While the policy mandates changing default passwords and password expiration, it doesn't specify the use of cryptographic mechanisms for protecting stored credentials.",
+      "recommendation": "Update the policy to explicitly state that stored credentials (e.g., passwords) must be protected using cryptographic techniques.  Specify the approved cryptographic algorithms and key management practices. For example, require salting and hashing of stored passwords using strong, industry-standard algorithms. The policy should also prohibit the storage of passwords in plain text."
     },
     "03.16.01": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy lacks specific details on the separation of duties, particularly concerning privileged accounts. While it mentions creating accounts with the least privilege, it doesn't explicitly address the segregation of duties for sensitive functions like security auditing or system administration.",
+      "recommendation": "Enhance the policy to explicitly require separation of duties, especially for privileged accounts.  Define specific roles and responsibilities to prevent any single user from having complete control over critical security functions. For example, the individual responsible for creating or modifying user accounts should not be the same individual who audits those accounts.  The policy should also incorporate least privilege principles for elevated accounts and detailed procedures for managing privileged access."
     },
     "03.16.02": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses account management aspects relevant to NIST 800-171 3.16.02 but lacks explicit details regarding system and communications protection measures like access control, encryption, and security event logging related to CUI.",
+      "recommendation": "Enhance the policy to explicitly cover System and Communications Protection (SC) elements mentioned in NIST SP 800-171 Table 20.  Include specific procedures for access control based on least privilege, methods for protecting the confidentiality and integrity of CUI during transmission and storage (e.g., encryption), and requirements for logging and monitoring security-relevant events on systems and communication channels. Clearly define responsibilities for implementing and managing these protections."
     },
     "03.16.03": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy primarily focuses on internal account management.  It lacks explicit handling of external system services, which NIST 800-171 3.16.3 addresses.  There's no mention of controls or processes related to external systems accessing company resources.",
+      "recommendation": "Extend the policy to include guidelines for managing external system services.  Address these points:\n\n* **Inventory:** Maintain a documented inventory of all authorized external systems accessing company resources.\n* **Access Control:** Define and enforce access restrictions for external systems, including least privilege and explicit authorization.\n* **Monitoring:** Implement monitoring mechanisms for external system access, including logging and alerting.\n* **Security Review:** Conduct periodic security reviews of external systems and their access privileges.\n* **Contractual Agreements:** For external systems managed by third-party providers, ensure contracts include security requirements aligned with NIST 800-171."
     },
     "03.17.01": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks specific details regarding separation of duties, least privilege, and periodic review of user access rights.  It mentions these concepts but doesn't explicitly require reviews of user rights and enforcement of least privilege. It also doesn't define the frequency of privilege reviews.",
+      "recommendation": "The policy should explicitly state that user access privileges are reviewed periodically (e.g., annually, semi-annually or more frequently based on risk) to ensure least privilege. Define a process for reviewing user access rights and revoking unnecessary privileges. Incorporate a requirement for documented separation of duties, especially for sensitive operations, to prevent fraud and errors.  Specify a documented process for disabling inactive accounts and define what constitutes inactivity.  Finally, formalize the independent audit review process and its frequency."
     },
     "03.17.02": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy focuses on account management but lacks details on acquisition strategies, tools, and methods as required by NIST 800-171 3.17.02.  It does not address how acquisitions should be conducted to ensure security within the supply chain.",
+      "recommendation": "Expand the policy to include procedures for acquiring external information systems, software, and services. This should cover security assessments of vendors, contractual agreements ensuring security requirements are met, and processes for verifying and validating acquired systems before deployment."
     },
     "03.17.03": {
-      "status": "Error",
-      "gap_summary": "Gemini API error",
-      "recommendation": "404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods."
+      "status": "Partially Implemented",
+      "gap_summary": "The provided company policy addresses several aspects of account management but lacks specifics on separation of duties, least privilege, and periodic review of privileged accounts.",
+      "recommendation": "Enhance the policy to explicitly address separation of duties, especially for privileged accounts. Define a process for implementing least privilege and ensure regular reviews of privileged accounts, documenting the review process and findings.  Clarify how access is revoked for various scenarios (termination, leave, etc.). While the policy mentions reviews for inactive accounts, it should also specify reviews of active, especially privileged, accounts."
     }
   },
   "Security-Policy-2-Account-Management (6).docx": {

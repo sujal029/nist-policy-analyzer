@@ -1,0 +1,652 @@
+{
+  "03.13.11": {
+    "control_id": "03.13.11",
+    "covered": "yes",
+    "suggestion": "The policy covers the requirements for creating, administering, using, and removing accounts that facilitate access to information and technology resources, which aligns with the NIST control. However, it is recommended to explicitly mention the monitoring and control of remote access sessions to fully comply with the control."
+  },
+  "03.15.02": {
+    "control_id": "03.15.02",
+    "covered": "yes",
+    "suggestion": "No additional suggestion is needed as the provided policy text thoroughly covers the control 03.15.02 requirements for account management."
+  },
+  "03.01.01": {
+    "control_id": "03.01.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.02": {
+    "control_id": "03.01.02",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.03": {
+    "control_id": "03.01.03",
+    "covered": "yes",
+    "suggestion": "The policy seems to be well-documented and thorough in its coverage of access control and account management. However, it would be beneficial to explicitly state how the organization enforces information flow enforcement in terms of access control, such as how it restricts or grants access to specific system resources based on user roles or privileges."
+  },
+  "03.01.04": {
+    "control_id": "03.01.04",
+    "covered": "yes",
+    "suggestion": "The policy adequately covers the requirements of 03.01.04 by providing clear guidelines for account management, including creation, administration, use, and removal of accounts. The policy also ensures that accounts are uniquely identifiable, have password expiration, and are actively managed."
+  },
+  "03.01.05": {
+    "control_id": "03.01.05",
+    "covered": "yes",
+    "suggestion": "No additional suggestions are necessary as the policy text explicitly covers the requirements for account management, including account creation, modification, and removal, as well as regular review and audit of accounts."
+  },
+  "03.01.06": {
+    "control_id": "03.01.06",
+    "covered": "yes",
+    "suggestion": "The policy appears to cover the requirements for account management, including creation, administration, use, and removal of accounts. However, it would be beneficial to include more specific details on the procedures for monitoring and implementing security controls and procedures for a system, as required by the NIST control."
+  },
+  "03.01.07": {
+    "control_id": "03.01.07",
+    "covered": "yes",
+    "suggestion": "No additional suggestions as the policy covers account creation, management, and removal processes."
+  },
+  "03.01.08": {
+    "control_id": "03.01.08",
+    "covered": "yes",
+    "suggestion": "The provided policy text adequately covers the requirement of establishing and implementing procedures for account management. It outlines specific procedures for creating, modifying, disabling, and removing accounts, as well as account reviews, and ensures that account management is actively managed. The policy also addresses concurrent connections, password expiration, and default passwords, which aligns with the NIST control requirement."
+  },
+  "03.01.09": {
+    "control_id": "03.01.09",
+    "covered": "yes",
+    "suggestion": "The provided policy text adequately covers the NIST control 03.01.09, which requires mechanisms to manage information system accounts. The policy details account creation, administration, use, and removal processes, and it also addresses account management, access control, and regular review of inactive accounts."
+  },
+  "03.01.10": {
+    "control_id": "03.01.10",
+    "covered": "yes",
+    "suggestion": "The policy covers the creation, administration, use, and removal of accounts that facilitate access to information and technology resources at the company."
+  },
+  "03.01.11": {
+    "control_id": "03.01.11",
+    "covered": "yes",
+    "suggestion": "The policy covers the control by stating specific requirements for account management, including creation, administration, use, and removal of accounts, and enforcement of access controls."
+  },
+  "03.01.12": {
+    "control_id": "03.01.12",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.13": {
+    "control_id": "03.01.13",
+    "covered": "yes",
+    "suggestion": "N/A"
+  },
+  "03.01.14": {
+    "control_id": "03.01.14",
+    "covered": "yes",
+    "suggestion": "The company's policy covers the control by describing the standards for account management, including the creation, administration, use, and removal of accounts, which includes the timely removal of accounts of terminated employees."
+  },
+  "03.01.15": {
+    "control_id": "03.01.15",
+    "covered": "yes",
+    "suggestion": "The policy covers the creation, administration, use, and removal of accounts that facilitate access to information and technology resources, which aligns with NIST control AC-3. However, it would be beneficial to explicitly mention the withdrawal of access upon resignation, transfer, or termination of an employee, contractor, or other users."
+  },
+  "03.01.16": {
+    "control_id": "03.01.16",
+    "covered": "yes",
+    "suggestion": "This policy covers account management, including creation, administration, use, and removal of accounts, which aligns with the NIST control. However, consider adding more specific language on account monitoring and reporting to further support control implementation."
+  },
+  "03.01.17": {
+    "control_id": "03.01.17",
+    "covered": "yes",
+    "suggestion": "The policy covers account management and access control requirements, which align with the NIST control. The policy should be reviewed and updated regularly to ensure compliance with the latest security standards."
+  },
+  "03.01.18": {
+    "control_id": "03.01.18",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.01.19": {
+    "control_id": "03.01.19",
+    "covered": "yes",
+    "suggestion": "The policy covers the withdrawn control, addressing the management of accounts, including creation, administration, use, and removal. It also covers aspects such as access control, account monitoring, and inactive account management."
+  },
+  "03.01.20": {
+    "control_id": "03.01.20",
+    "covered": "yes",
+    "suggestion": "The policy provides clear guidelines for account management, access control, and password management, which aligns with the NIST control 03.02.01. The policy requires written requests, unique user IDs, and password expiration, and prohibits shared accounts."
+  },
+  "03.01.21": {
+    "control_id": "03.01.21",
+    "covered": "yes",
+    "suggestion": "The policy covers the creation, administration, use, and removal of accounts, which meets the requirements of AC-2(1)."
+  },
+  "03.01.22": {
+    "control_id": "03.01.22",
+    "covered": "yes",
+    "suggestion": "The policy covers the awareness and training aspect by outlining the account management process, including creation, administration, use, and removal of accounts. It also provides guidelines for System Administrators, emphasizing the importance of accountability in the overall security program. However, it is recommended to include a section specifically on user awareness and training to further emphasize the importance of security and compliance."
+  },
+  "03.02.01": {
+    "control_id": "03.02.01",
+    "covered": "yes",
+    "suggestion": "The provided policy text comprehensively addresses the control requirements for account management, including creation, administration, use, and removal of accounts. The policy covers aspects such as account uniqueness, password management, account disablement, and regular review of inactive accounts. However, it is essential to ensure that the policy is properly implemented, and procedures are followed in practice."
+  },
+  "03.02.02": {
+    "control_id": "03.02.02",
+    "covered": "yes",
+    "suggestion": "The policy covers the awareness and training aspects of account management, including the responsibilities of system administrators and security administrators. However, it would be beneficial to include specific training requirements for these roles to ensure they are equipped to effectively manage accounts and enforce the organization's security policy."
+  },
+  "03.02.03": {
+    "control_id": "03.02.03",
+    "covered": "yes",
+    "suggestion": "The policy covers the awareness and training aspect related to account management, which aligns with the withdrawn control. It would be beneficial to review and update the policy to ensure it remains current and effective in addressing relevant security concerns."
+  },
+  "03.03.01": {
+    "control_id": "03.03.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.03.02": {
+    "control_id": "03.03.02",
+    "covered": "yes",
+    "suggestion": "The policy covers the creation, administration, use, and removal of accounts that facilitate access to information and technology resources at the company, including account management, access controls, and regular review of inactive accounts."
+  },
+  "03.03.03": {
+    "control_id": "03.03.03",
+    "covered": "yes",
+    "suggestion": "The policy text provides a comprehensive account management policy that covers creation, administration, use, and removal of accounts. It includes provisions for account creation, username uniqueness, password management, account disablement, and regular reviews. However, consider adding more details on assessment, authorization, and monitoring procedures to further align with the NIST control."
+  },
+  "03.03.04": {
+    "control_id": "03.03.04",
+    "covered": "yes",
+    "suggestion": "None"
+  },
+  "03.03.05": {
+    "control_id": "03.03.05",
+    "covered": "yes",
+    "suggestion": "The policy text comprehensively covers the creation, administration, use, and removal of accounts that facilitate access to information and technology resources at the company. It outlines specific requirements for account management, such as unique identifiers, password policies, and regular reviews to identify inactive accounts. However, it would be beneficial to provide more specific guidance on auditing and accountability measures, such as logging and monitoring of account activity."
+  },
+  "03.03.06": {
+    "control_id": "03.03.06",
+    "covered": "no",
+    "suggestion": "The policy text does not explicitly mention audit record reduction and report generation. While it discusses account management and review, it does not specify how audit records will be reduced and reported. Consider adding a section that outlines the procedures for reducing and reporting audit records."
+  },
+  "03.03.07": {
+    "control_id": "03.03.07",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.03.08": {
+    "control_id": "03.03.08",
+    "covered": "yes",
+    "suggestion": "The policy covers the creation, administration, use, and removal of accounts, including requirements for unique identifiability, password management, and active management. It also outlines procedures for reviewing and disabling inactive accounts."
+  },
+  "03.03.09": {
+    "control_id": "03.03.09",
+    "covered": "yes",
+    "suggestion": "This policy covers the creation, administration, use, and removal of accounts, including account management and access controls. While the policy is comprehensive, consider providing additional guidance on audit log analysis and monitoring for potential security incidents."
+  },
+  "03.04.01": {
+    "control_id": "03.04.01",
+    "covered": "yes",
+    "suggestion": "The policy covers the establishment of baseline configuration for computer accounts, including the creation, administration, use, and removal of accounts. However, it would be beneficial to explicitly mention the organization's baseline configuration for system settings, network device configurations, and other IT systems."
+  },
+  "03.04.02": {
+    "control_id": "03.04.02",
+    "covered": "yes",
+    "suggestion": "The policy covers the configuration management control by specifying the requirements for account creation, administration, and removal. It also outlines the roles and responsibilities of System Administrators and Security Administrators in managing information system accounts."
+  },
+  "03.04.03": {
+    "control_id": "03.04.03",
+    "covered": "yes",
+    "suggestion": "The policy adequately covers configuration change control by specifying procedures for account creation, modification, and removal, as well as periodic reviews of accounts to ensure they are properly managed."
+  },
+  "03.04.04": {
+    "control_id": "03.04.04",
+    "covered": "yes",
+    "suggestion": "The policy covers the configuration management aspects of account management, including creation, administration, use, and removal of accounts. It provides detailed guidelines for account management, including the requirement for written requests and management approval, unique identifiable usernames, and password policies. However, to further enhance compliance, it is suggested to consider implementing automated account management tools to streamline the process and reduce the risk of human error."
+  },
+  "03.04.05": {
+    "control_id": "03.04.05",
+    "covered": "yes",
+    "suggestion": "The policy provides a comprehensive account management process, including creation, administration, use, and removal of accounts. It addresses key aspects such as unique identifiability, password management, and account reviews. However, it would be beneficial to include more detailed procedures for configuration management, such as version control and change management, to further align with the NIST control."
+  },
+  "03.04.06": {
+    "control_id": "03.04.06",
+    "covered": "yes",
+    "suggestion": "The policy appears to comprehensively cover the configuration management requirements for account management, including creation, administration, use, and removal of accounts. However, it is recommended to ensure that the policy is regularly reviewed and updated to ensure it remains aligned with organizational requirements and industry best practices."
+  },
+  "03.04.07": {
+    "control_id": "03.04.07",
+    "covered": "yes",
+    "suggestion": "The provided policy adequately covers the withdrawn control 03.04.07, as it provides detailed procedures for account management, including creation, administration, use, and removal of accounts. The policy also addresses account reviews, modifications, and disabling of inactive accounts."
+  },
+  "03.04.08": {
+    "control_id": "03.04.08",
+    "covered": "yes",
+    "suggestion": "The policy text provides a comprehensive account management policy that covers creation, administration, use, and removal of accounts. It ensures that accounts are uniquely identifiable, have appropriate approval, and follow the company's password policy. The policy also covers account management, including active management, access controls, and regular review of inactive accounts. However, it would be beneficial to include specific procedures for implementing and monitoring configuration changes to accounts and systems."
+  },
+  "03.04.09": {
+    "control_id": "03.04.09",
+    "covered": "yes",
+    "suggestion": "The policy text covers the withdrawn control by addressing the configuration management aspects of account management, including creating, controlling, and monitoring all computer accounts, which aligns with the original control's intent."
+  },
+  "03.04.10": {
+    "control_id": "03.04.10",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.04.11": {
+    "control_id": "03.04.11",
+    "covered": "yes",
+    "suggestion": "This policy seems to cover the requirements for configuration management. However, consider adding more specific details on how the company handles changes to information systems and ensures the integrity of the configurations."
+  },
+  "03.04.12": {
+    "control_id": "03.04.12",
+    "covered": "yes",
+    "suggestion": "The policy text covers the configuration management control 03.04.12 by addressing account creation, administration, use, and removal. It specifies the requirements for account management, including the need for written requests, unique identification, password policies, and regular review of inactive accounts."
+  },
+  "03.05.01": {
+    "control_id": "03.05.01",
+    "covered": "yes",
+    "suggestion": "The policy text seems to cover identification and authentication aspects, including account creation, management, and removal. It also addresses access control and account review. However, consider providing more explicit language regarding authentication protocols and password requirements."
+  },
+  "03.05.02": {
+    "control_id": "03.05.02",
+    "covered": "yes",
+    "suggestion": "No further action is required as the policy adequately addresses the control requirement."
+  },
+  "03.05.03": {
+    "control_id": "03.05.03",
+    "covered": "yes",
+    "suggestion": "The policy covers the creation, administration, use, and removal of accounts, including requirements for unique identifiers, password management, and access controls. It also outlines account management responsibilities for System Administrators and designated staff. However, it would be beneficial to explicitly state how the organization will identify and authenticate authorized individuals, as required by the control."
+  },
+  "03.05.04": {
+    "control_id": "03.05.04",
+    "covered": "yes",
+    "suggestion": "The policy covers account management, including creation, modification, and removal, which aligns with the NIST control. The policy also outlines specific requirements for account management, such as reviewing inactive accounts and disabling accounts upon employee termination."
+  },
+  "03.05.05": {
+    "control_id": "03.05.05",
+    "covered": "yes",
+    "suggestion": "The policy clearly outlines the account creation, management, and removal processes, covering the NIST control requirements."
+  },
+  "03.05.06": {
+    "control_id": "03.05.06",
+    "covered": "yes",
+    "suggestion": "The policy covers account management and monitoring, which aligns with the NIST control IA-6, including requirements for account creation, modification, and removal. However, the policy can be improved by providing more specific details on the technical implementation of account management and monitoring, such as the use of automation tools and frequency of account reviews."
+  },
+  "03.05.07": {
+    "control_id": "03.05.07",
+    "covered": "yes",
+    "suggestion": "This policy appears to cover the requirements for identifying and authenticating users, including account creation, management, and removal. It also addresses access control, password management, and account review. However, it may be beneficial to provide more specific guidance on the technical implementation of these controls, such as the use of multi-factor authentication or privilege access management."
+  },
+  "03.05.08": {
+    "control_id": "03.05.08",
+    "covered": "yes",
+    "suggestion": "The provided policy text appears to adequately address the requirements of NIST control 03.05.08, which is currently withdrawn. However, it's essential to review and update the policy to ensure it meets the current and relevant NIST control requirements."
+  },
+  "03.05.09": {
+    "control_id": "03.05.09",
+    "covered": "yes",
+    "suggestion": "This policy provides a comprehensive overview of account management, including account creation, modification, and removal. It covers essential aspects such as unique identifiers, password policies, and access controls. Consider reviewing and updating the policy to ensure it is aligned with the latest NIST guidelines and best practices."
+  },
+  "03.05.10": {
+    "control_id": "03.05.10",
+    "covered": "yes",
+    "suggestion": "The policy appears to cover the NIST control IA-5 by stating the requirements for account creation, administration, and removal, including the assignment of unique usernames, password management, and account review."
+  },
+  "03.05.11": {
+    "control_id": "03.05.11",
+    "covered": "yes",
+    "suggestion": "No suggestion needed as the policy comprehensively covers the identification and authentication requirements for account management."
+  },
+  "03.05.12": {
+    "control_id": "03.05.12",
+    "covered": "yes",
+    "suggestion": "The policy appears to be comprehensive and covers most aspects of account management, including creation, administration, use, and removal of accounts. However, it would be beneficial to explicitly mention the procedures for monitoring and controlling account activity, as well as the frequency of account reviews, to ensure compliance with the NIST control."
+  },
+  "03.15.03": {
+    "control_id": "03.15.03",
+    "covered": "yes",
+    "suggestion": "The policy covers the control requirement for planning by establishing a standard for account creation, administration, use, and removal. It provides guidelines for account management, including creating, managing, and reviewing accounts, and ensures accountability through regular audits."
+  },
+  "03.13.08": {
+    "control_id": "03.13.08",
+    "covered": "yes",
+    "suggestion": "The policy text covers the control requirement by specifying the creation, administration, use, and removal of accounts that facilitate access to information and technology resources at the company. It provides guidelines for account management, including unique identification, password requirements, and regular reviews to identify inactive accounts."
+  },
+  "03.06.01": {
+    "control_id": "03.06.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.06.02": {
+    "control_id": "03.06.02",
+    "covered": "yes",
+    "suggestion": "The policy covers account management, including creation, modification, and removal, which is relevant to incident response. However, it would be beneficial to explicitly mention incident response procedures in the policy to ensure that account management is aligned with incident response requirements."
+  },
+  "03.06.03": {
+    "control_id": "03.06.03",
+    "covered": "yes",
+    "suggestion": "The provided policy covers the requirements for account management, including creation, modification, and removal. However, it is recommended to consider including more specific details on incident response procedures for account-related security incidents."
+  },
+  "03.06.04": {
+    "control_id": "03.06.04",
+    "covered": "yes",
+    "suggestion": "The policy covers the incident response control by providing a comprehensive account management policy that outlines the creation, administration, use, and removal of accounts that facilitate access to information and technology resources. The policy ensures accountability and provides guidelines for account management, including unique identification, shared account prohibition, password management, and periodic review of inactive accounts."
+  },
+  "03.06.05": {
+    "control_id": "03.06.05",
+    "covered": "yes",
+    "suggestion": "None"
+  },
+  "03.07.01": {
+    "control_id": "03.07.01",
+    "covered": "yes",
+    "suggestion": "No suggestions, the policy covers all aspects of account management, including creation, administration, use, and removal, with emphasis on active management, access controls, and periodic reviews."
+  },
+  "03.07.02": {
+    "control_id": "03.07.02",
+    "covered": "yes",
+    "suggestion": "The policy provides a comprehensive account management process, including creation, administration, use, and removal of accounts. It also includes regular reviews of inactive accounts and independent audit reviews to ensure proper management. However, it would be beneficial to consider implementing automated account disablement and removal processes to minimize manual errors and ensure timely action upon employee termination or inactivity."
+  },
+  "03.07.04": {
+    "control_id": "03.07.04",
+    "covered": "yes",
+    "suggestion": "The policy text covers the management of accounts, including creation, modification, disabling, and removal of accounts. It also includes procedures for reviewing and monitoring accounts, which aligns with the NIST control 03.07.04. The policy is comprehensive and covers all aspects of account management, ensuring that accounts are properly managed and monitored."
+  },
+  "03.07.03": {
+    "control_id": "03.07.03",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.07.05": {
+    "control_id": "03.07.05",
+    "covered": "yes",
+    "suggestion": "The policy provides a comprehensive set of guidelines for account management, including the creation, administration, use, and removal of accounts. It covers aspects such as account creation, uniqueness, password management, account disabling, and regular review of inactive accounts. The policy also assigns responsibilities to System Administrators and security administrators, ensuring that account management is actively monitored and controlled. Overall, the policy meets the requirements of NIST control 03.07.05."
+  },
+  "03.07.06": {
+    "control_id": "03.07.06",
+    "covered": "yes",
+    "suggestion": "The policy provides a comprehensive overview of account management, including creation, administration, use, and removal of accounts, which satisfies the requirements of NIST control 03.07.06 for maintenance personnel."
+  },
+  "03.10.01": {
+    "control_id": "03.10.01",
+    "covered": "no",
+    "suggestion": "The policy text does not address physical access authorizations, which is the requirement of NIST control 03.10.01. It focuses on account management and access control, which is a different aspect of security. The company should develop a separate policy that covers physical access authorizations to meet this control requirement."
+  },
+  "03.08.01": {
+    "control_id": "03.08.01",
+    "covered": "no",
+    "suggestion": "The company's policy does not explicitly address the secure storage of media, which is the focus of the NIST control 03.08.01. Although the policy discusses account management and access controls, it does not provide guidance on media protection. The company should develop a separate policy or add a section to this policy that addresses the secure storage of media, such as encryption, access controls, and physical protection."
+  },
+  "03.08.02": {
+    "control_id": "03.08.02",
+    "covered": "no",
+    "suggestion": "The provided policy text does not mention media access or media protection, which is the core requirement of NIST control 03.08.02. The policy primarily focuses on account management and access control. To fully cover this control, the company should develop a policy that addresses media access, including procedures for controlling access to media, such as backup tapes, removable storage devices, and other forms of electronic media."
+  },
+  "03.08.03": {
+    "control_id": "03.08.03",
+    "covered": "no",
+    "suggestion": "The policy does not address media sanitization, which is critical to preventing unauthorized access to sensitive data. Consider adding a section that outlines procedures for sanitizing media, such as degaussing, shredding, or securely erasing data from devices."
+  },
+  "03.08.04": {
+    "control_id": "03.08.04",
+    "covered": "yes",
+    "suggestion": "The policy covers the management of accounts, including creation, administration, and removal. It also addresses the importance of monitoring and reviewing accounts regularly. To further improve, consider implementing automated account monitoring and review processes to reduce the risk of inactive accounts and ensure timely notifications."
+  },
+  "03.08.05": {
+    "control_id": "03.08.05",
+    "covered": "yes",
+    "suggestion": "The policy text provides a comprehensive account management process, including account creation, modification, and removal. It also covers access control, password management, and regular account reviews. However, to further improve compliance, consider adding more specific procedures for media protection, such as labeling and tracking removable media, and implementing additional measures to prevent unauthorized access to sensitive data."
+  },
+  "03.08.06": {
+    "control_id": "03.08.06",
+    "covered": "yes",
+    "suggestion": "The policy covers the withdrawn control by emphasizing the importance of account management, including creation, administration, use, and removal of accounts. It's recommended to review and update the policy to address any potential gaps or areas for improvement."
+  },
+  "03.08.07": {
+    "control_id": "03.08.07",
+    "covered": "yes",
+    "suggestion": "The policy provides a comprehensive account management process, including creation, administration, use, and removal of accounts, which aligns with the NIST control 03.08.07. The policy outlines procedures for creating unique and identifiable accounts, managing access, and regularly reviewing and updating accounts to ensure they are active and comply with the company's password policy. However, it would be beneficial to consider implementing an automated account management system to further streamline and secure the account management process."
+  },
+  "03.08.08": {
+    "control_id": "03.08.08",
+    "covered": "no",
+    "suggestion": "This control has been withdrawn, hence it is not applicable. Ensure that the company is complying with the latest NIST controls."
+  },
+  "03.08.09": {
+    "control_id": "03.08.09",
+    "covered": "yes",
+    "suggestion": "The policy covers the creation, administration, use, and removal of accounts that facilitate access to information and technology resources. It outlines procedures for account management, including account creation, modification, and removal, as well as access controls and periodic review of inactive accounts. However, consider adding more specific details on the procedures for media protection, such as controls for managing and protecting removable media and backup media."
+  },
+  "03.09.01": {
+    "control_id": "03.09.01",
+    "covered": "yes",
+    "suggestion": "The policy covers the requirements of the control by outlining the procedures for account creation, administration, use, and removal. It also specifies the roles and responsibilities of System Administrators and Security Administrators in managing accounts."
+  },
+  "03.09.02": {
+    "control_id": "03.09.02",
+    "covered": "yes",
+    "suggestion": "This policy covers the establishment and management of accounts and access controls, which aligns with the NIST Control 03.10.01. However, it's recommended to review and update the policy to ensure it addresses all aspects of account management, including account creation, modification, and removal, as well as periodic review and audit."
+  },
+  "03.10.02": {
+    "control_id": "03.10.02",
+    "covered": "no",
+    "suggestion": "The policy does not explicitly address the protection of physical access devices, such as badges, smart cards, or biometric devices. Consider expanding the policy to include the secure management and protection of these devices."
+  },
+  "03.10.03": {
+    "control_id": "03.10.03",
+    "covered": "no",
+    "suggestion": "This control is withdrawn and does not apply."
+  },
+  "03.10.04": {
+    "control_id": "03.10.04",
+    "covered": "no",
+    "suggestion": "This control has been withdrawn by NIST. Please refer to the latest version of the NIST 800-53 standard for active controls."
+  },
+  "03.10.05": {
+    "control_id": "03.10.05",
+    "covered": "no",
+    "suggestion": "The provided policy text does not address physical protection of organizational assets, which is the focus of NIST control 03.10.05. The policy seems to be related to account management and access control. It is recommended to review and develop a separate policy that addresses physical protection controls."
+  },
+  "03.10.06": {
+    "control_id": "03.10.06",
+    "covered": "no",
+    "suggestion": "Develop a policy or procedure that addresses the physical protection of organizational information systems and equipment, including the protection of power and telecommunications services."
+  },
+  "03.10.07": {
+    "control_id": "03.10.07",
+    "covered": "no",
+    "suggestion": "The policy text does not explicitly address the control's requirement for physical security measures to prevent unauthorized access to devices and systems. It is recommended to include a section that outlines the physical security controls in place to protect devices and systems from unauthorized access."
+  },
+  "03.10.08": {
+    "control_id": "03.10.08",
+    "covered": "no",
+    "suggestion": "The policy does not explicitly mention access control for transmission, it seems to focus on account management and access control for information systems. Consider expanding the policy to cover access control for transmission, ensuring that access to transmitted data is restricted to authorized personnel and that appropriate controls are in place to prevent unauthorized access."
+  },
+  "03.11.01": {
+    "control_id": "03.11.01",
+    "covered": "yes",
+    "suggestion": "This policy provides a comprehensive approach to account management, including creation, administration, use, and removal of accounts, which aligns with the requirements of NIST control 03.11.01. It is suggested to review and update the policy regularly to ensure it remains effective and up-to-date."
+  },
+  "03.11.02": {
+    "control_id": "03.11.02",
+    "covered": "yes",
+    "suggestion": "No additional suggestions are needed as the policy text already addresses the control requirement to protect controlled unclassified information by implementing account management policies and procedures."
+  },
+  "03.11.03": {
+    "control_id": "03.11.03",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.11.04": {
+    "control_id": "03.11.04",
+    "covered": "yes",
+    "suggestion": "The policy covers risk assessment requirements for account management, including creation, administration, use, and removal of accounts. It addresses key aspects such as unique identifiability, shared accounts, password policies, and account reviews. However, it would be beneficial to explicitly mention the consideration of risk factors and vulnerabilities in the account management process."
+  },
+  "03.12.01": {
+    "control_id": "03.12.01",
+    "covered": "yes",
+    "suggestion": "The policy text covers the creation, administration, use, and removal of accounts, including requirements for unique IDs, password policies, and account management. It is compliant with the NIST control, but it would be beneficial to include more specific procedures for implementing security controls and procedures."
+  },
+  "03.12.02": {
+    "control_id": "03.12.02",
+    "covered": "no",
+    "suggestion": "The policy does not mention a plan of action and milestones as required by NIST 03.12.02. Consider adding a section that outlines the process for identifying and addressing security risks and vulnerabilities, along with a plan of action and milestones to remediate them."
+  },
+  "03.12.03": {
+    "control_id": "03.12.03",
+    "covered": "yes",
+    "suggestion": "No further action is required as the policy covers the requirements for security assessment."
+  },
+  "03.12.04": {
+    "control_id": "03.12.04",
+    "covered": "yes",
+    "suggestion": "The policy is adequately covered in the provided policy text, which addresses the security assessment control requirement. However, it is recommended to review and update the policy regularly to ensure it remains effective and aligned with the organization's security posture."
+  },
+  "03.12.05": {
+    "control_id": "03.12.05",
+    "covered": "yes",
+    "suggestion": "The policy covers the creation, administration, use, and removal of accounts, which aligns with the NIST control 03.13.09. It addresses account management, access controls, and periodic review of accounts. However, it is recommended to include more specific details on the monitoring and analysis of account activities to further enhance the security assessment process."
+  },
+  "03.13.01": {
+    "control_id": "03.13.01",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.13.02": {
+    "control_id": "03.13.02",
+    "covered": "yes",
+    "suggestion": "The policy text addresses the withdrawn control 03.13.02 by providing guidelines for account management, including creation, administration, use, and removal of accounts. The policy emphasizes the importance of accountability and provides detailed procedures for account management."
+  },
+  "03.13.03": {
+    "control_id": "03.13.03",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.13.04": {
+    "control_id": "03.13.04",
+    "covered": "yes",
+    "suggestion": "The policy text covers the main aspects of the NIST control SC-13, including account management, access control, and periodic review of accounts. However, it would be beneficial to include more specific technical details on how the organization implements the control, such as the use of automation tools for account management and the frequency of access reviews."
+  },
+  "03.13.05": {
+    "control_id": "03.13.05",
+    "covered": "yes",
+    "suggestion": "No further actions needed, as the policy covers the requirements for account creation, administration, use, and removal, including accountability, uniqueness, and management of accounts."
+  },
+  "03.13.06": {
+    "control_id": "03.13.06",
+    "covered": "yes",
+    "suggestion": "The policy provides a comprehensive account management process, including creation, administration, use, and removal of accounts. It also covers aspects such as unique identifiability, password management, concurrent connections, and account reviews. However, it would be beneficial to consider implementing additional security measures, such as multi-factor authentication and regular security assessments, to further enhance account security."
+  },
+  "03.13.07": {
+    "control_id": "03.13.07",
+    "covered": "yes",
+    "suggestion": "This policy covers various aspects of account management, including creation, administration, use, and removal of accounts, which aligns with the NIST control SC-7. However, it's recommended to review and update the policy to ensure it fully addresses the withdrawn control 03.13.07, which focused on withdrawn systems."
+  },
+  "03.13.09": {
+    "control_id": "03.13.09",
+    "covered": "yes",
+    "suggestion": "The policy text meets the control requirement, but it's recommended to explicitly mention the use of automated mechanisms to support account management, such as account creation, modification, and removal."
+  },
+  "03.13.10": {
+    "control_id": "03.13.10",
+    "covered": "yes",
+    "suggestion": "The policy text covers the requirements for account management, including creation, administration, use, and removal of accounts, which aligns with the NIST control 03.13.11. However, it would be beneficial to include more explicit language regarding the monitoring of account usage and the detection of unauthorized account access."
+  },
+  "03.13.12": {
+    "control_id": "03.13.12",
+    "covered": "yes",
+    "suggestion": "The policy text covers the NIST control by outlining the standard for the creation, administration, use, and removal of accounts, including account management, access controls, and review procedures. However, it would be beneficial to provide more specific details on the technical implementation of these controls, such as authentication protocols and access authorization processes."
+  },
+  "03.13.13": {
+    "control_id": "03.13.13",
+    "covered": "yes",
+    "suggestion": "The policy text adequately covers the requirements of NIST 03.13.13. It provides clear guidelines for the creation, administration, use, and removal of accounts, including provisions for unique identification, password management, account disablement, and regular reviews. However, it would be beneficial to explicitly state how the organization will monitor and implement security controls and procedures for systems, as mentioned in the NIST control."
+  },
+  "03.13.14": {
+    "control_id": "03.13.14",
+    "covered": "yes",
+    "suggestion": "The policy covers the aspects of withdrawing (disabling or removing) accounts, which aligns with the NIST control SC-13. However, it would be beneficial to explicitly mention the procedures for withdrawing accounts in emergency situations."
+  },
+  "03.13.15": {
+    "control_id": "03.13.15",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.13.16": {
+    "control_id": "03.13.16",
+    "covered": "no",
+    "suggestion": "The control is withdrawn, but the company's policy text does not mention anything about withdrawing accounts. The policy primarily focuses on account creation, administration, use, and removal. It would be beneficial for the company to establish a policy that addresses withdrawing accounts as per the NIST control."
+  },
+  "03.14.01": {
+    "control_id": "03.14.01",
+    "covered": "no",
+    "suggestion": "The policy provided does not explicitly address flaw remediation. It primarily focuses on account management, creation, and removal. Consider incorporating a section that outlines procedures for identifying, reporting, and remediating flaws in information systems."
+  },
+  "03.14.02": {
+    "control_id": "03.14.02",
+    "covered": "yes",
+    "suggestion": "The policy text provides a comprehensive account management policy that covers account creation, administration, use, and removal. It is aligned with the NIST control objective, and the policy details specify the requirements for account management, including account creation, access controls, and periodic reviews."
+  },
+  "03.14.03": {
+    "control_id": "03.14.03",
+    "covered": "yes",
+    "suggestion": ""
+  },
+  "03.14.04": {
+    "control_id": "03.14.04",
+    "covered": "yes",
+    "suggestion": "NA"
+  },
+  "03.14.05": {
+    "control_id": "03.14.05",
+    "covered": "no",
+    "suggestion": "The control 03.14.05 is withdrawn and not applicable. Please review the NIST framework for a relevant substitute control."
+  },
+  "03.14.06": {
+    "control_id": "03.14.06",
+    "covered": "yes",
+    "suggestion": "The policy text appears to be comprehensive and covers the necessary aspects of account management. However, it would be beneficial to explicitly mention the implementation of monitoring and analysis of account activity to detect and respond to unauthorized access."
+  },
+  "03.14.07": {
+    "control_id": "03.14.07",
+    "covered": "no",
+    "suggestion": "The provided policy text does not address the withdrawn control. Please provide more information or revise the policy to address the control."
+  },
+  "03.14.08": {
+    "control_id": "03.14.08",
+    "covered": "yes",
+    "suggestion": "Continue to review and refine the account management process to ensure it is aligned with the company's security policy and NIST control SI-8."
+  },
+  "03.15.01": {
+    "control_id": "03.15.01",
+    "covered": "yes",
+    "suggestion": "The policy provides a comprehensive framework for account management, covering aspects such as account creation, administration, and removal. It also ensures accountability and restricts access to authorized personnel. However, it would be beneficial to include more specific guidelines on role-based access control and segregation of duties to further enhance account management practices."
+  },
+  "03.16.01": {
+    "control_id": "03.16.01",
+    "covered": "yes",
+    "suggestion": "The policy covers account management and monitoring, including creation, modification, disabling, and removal of accounts. It also includes access control, password management, and regular reviews of inactive accounts."
+  },
+  "03.16.02": {
+    "control_id": "03.16.02",
+    "covered": "yes",
+    "suggestion": "The company's policy covers the requirements of SC-16(2) by establishing a standard for account creation, administration, use, and removal, as well as implementing measures to monitor and manage accounts. However, consider adding more specific details on how the organization ensures that system and communication protection is integrated into the account management process."
+  },
+  "03.16.03": {
+    "control_id": "03.16.03",
+    "covered": "no",
+    "suggestion": "The policy text does not explicitly mention the external system services. It mostly focuses on account management and access control within the company's information systems. It is recommended to include a section that addresses the use of external system services and how they are acquired, managed, and monitored."
+  },
+  "03.17.01": {
+    "control_id": "03.17.01",
+    "covered": "yes",
+    "suggestion": "This policy covers the creation, administration, use, and removal of accounts, which aligns with the NIST control 03.17.01. However, consider adding more details on the procedures for modifying account permissions and access levels, and ensuring that the account management process is documented and accessible to authorized personnel."
+  },
+  "03.17.02": {
+    "control_id": "03.17.02",
+    "covered": "yes",
+    "suggestion": "This policy partially covers the control. Consider including procedures for evaluating and selecting acquisition strategies, tools, and methods to ensure alignment with organizational goals and objectives."
+  },
+  "03.17.03": {
+    "control_id": "03.17.03",
+    "covered": "yes",
+    "suggestion": "The policy text explicitly covers the creation, administration, use, and removal of accounts, which aligns with the requirements of NIST control 03.17.02."
+  }
+}

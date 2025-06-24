@@ -1,102 +1,114 @@
 import os
 import json
-from docx import Document
-from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.prompts import PromptTemplate
-from langchain.chains import LLMChain
 import re
+from docx import Document
+from agno.agent import Agent
+from agno.models.groq import Groq
 
-# Set your Gemini API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyC_4R9j_uqmPZC4LAlEHTl9fqPn1wFDCm4"  # 🔐 Replace with your actual key
+# ✅ Set your Agno + Groq API key
+os.environ["GROQ_API_KEY"] = "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"
 
-# Load policy from .docx
+# ✅ Load policy from DOCX
 def read_policy(file_path):
     doc = Document(file_path)
-    return "\n".join([para.text.strip() for para in doc.paragraphs if para.text.strip()])
+    return "\n".join([p.text.strip() for p in doc.paragraphs if p.text.strip()])
 
-# Extract JSON from model response
-def extract_json(text):
-    match = re.search(r"\{.*\}", text, re.DOTALL)
-    if match:
-        try:
-            return json.loads(match.group(0))
-        except:
-            return {"control_id": "unknown", "covered": "no", "suggestion": "Invalid JSON"}
-    return {"control_id": "unknown", "covered": "no", "suggestion": "No JSON found"}
+# ✅ Extract JSON from model response
+def extract_json(text, control_id):
+    if not isinstance(text, str):
+        return {
+            "control_id": control_id,
+            "covered": "no",
+            "suggestion": "Error: model response was not a string"
+        }
 
-# Load JSON controls
+    try:
+        match = re.search(r"\{.*?\}", text, re.DOTALL)
+        if match:
+            data = json.loads(match.group(0))
+            data["control_id"] = control_id  # Force correct control ID
+            return data
+        else:
+            return {
+                "control_id": control_id,
+                "covered": "no",
+                "suggestion": "No JSON found in model response"
+            }
+    except Exception as e:
+        return {
+            "control_id": control_id,
+            "covered": "no",
+            "suggestion": f"Invalid JSON: {str(e)}"
+        }
+
+# ✅ Load NIST controls
 def load_controls(json_path):
     with open(json_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-# Setup LangChain LLM
-llm = ChatGoogleGenerativeAI(
-    model="gemini-1.5-pro",
-    temperature=0.3
-)
-
-# Define LangChain prompt template
-template = """
+# ✅ Create Agno agent
+audit_agent = Agent(
+    model=Groq(id="llama3-70b-8192"),
+    instructions="""
 You are a cybersecurity compliance auditor.
-
-You are given:
-1. A NIST control: "{control_text}"
-2. The following company policy paragraphs:
-{policy_text}
-
-Task:
-- Determine whether the policy addresses this control.
-- If NOT, mark it as a gap and provide a policy suggestion.
-
-Respond strictly in JSON format:
-{{
-  "control_id": "{control_id}",
-  "covered": "yes" | "no",
-  "suggestion": "..."
-}}
+Given a NIST control and a company's policy text,
+respond strictly in JSON format:
+{
+  "control_id": "<control_id>",
+  "covered": "yes" or "no",
+  "suggestion": "<...>"
+}
 """
-
-prompt = PromptTemplate(
-    input_variables=["control_id", "control_text", "policy_text"],
-    template=template
 )
 
-# Build LangChain chain
-chain = LLMChain(llm=llm, prompt=prompt)
-
-# 🔁 Main logic
+# ✅ Analyze controls
 def analyze_controls(policy_text, controls):
     results = {}
+
     for control_id, control_text in controls.items():
+        prompt = f"NIST Control [{control_id}]:\n{control_text}\n\nPolicy Text:\n{policy_text}"
         try:
-            response = chain.run({
-                "control_id": control_id,
-                "control_text": control_text,
-                "policy_text": policy_text
-            })
-            results[control_id] = extract_json(response)
+            # First attempt
+            response = audit_agent.run(prompt)
+            output = getattr(response, "content", None)
+
+            # Retry if needed
+            if output is None or not isinstance(output, str):
+                print(f"🔁 Retrying {control_id} due to invalid output...")
+                response = audit_agent.run(prompt)
+                output = getattr(response, "content", None)
+
+            # Fallback if still invalid
+            if output is None or not isinstance(output, str):
+                output = json.dumps({
+                    "control_id": control_id,
+                    "covered": "no",
+                    "suggestion": "Fallback: model did not return valid string"
+                })
+
+            # Log raw model output
+            with open("raw_llm_outputs.txt", "a", encoding="utf-8") as f:
+                f.write(f"\n\n--- Control ID: {control_id} ---\n{repr(output)}")
+
+            # Extract valid JSON response
+            results[control_id] = extract_json(output, control_id)
+
         except Exception as e:
             results[control_id] = {
                 "control_id": control_id,
                 "covered": "no",
-                "suggestion": f"LangChain Error: {str(e)}"
+                "suggestion": f"Error: {str(e)}"
             }
+
     return results
 
-# ✅ Main entry
+# ✅ Run everything
 if __name__ == "__main__":
-    # Edit paths as needed
-    policy_path = r"C:\Users\baiss\OneDrive\Desktop\portfolio\ai agent 2.0\Security-Policy-2-Account-Management.docx"
-    controls_path = r"C:\Users\baiss\OneDrive\Desktop\portfolio\ai agent 2.0\nist_controls.json"
-
-    print("📄 Loading policy and controls...")
-    policy_text = read_policy(policy_path)
-    controls = load_controls(controls_path)
-
-    print("⚙️ Running LangChain + Gemini...")
+    policy_text = read_policy(r"D:\nist policy\Security-Policy-2-Account-Management.docx")
+    controls = load_controls(r"D:\nist policy\nist_controls.json")
     results = analyze_controls(policy_text, controls)
 
-    with open("gap_analysis_langchain.json", "w", encoding="utf-8") as f:
+    with open("gap_analysis_agno.json", "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2)
 
-    print("✅ Done! Results saved in 'gap_analysis_langchain.json'")
+    print("✅ Done! Results saved to 'gap_analysis_agno.json'")
